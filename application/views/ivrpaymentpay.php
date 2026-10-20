@@ -2,26 +2,23 @@
 $this->load->view('includes/header-offer');
 ?>
 
-<main class="jobplugin__main">
+<main class="jobplugin__main bg-light">
 	<div class="container">
 		<div class="jobplugin__main-holder">
-			<span class="jobplugin__pattern default-right"></span>
-			<span class="jobplugin__pattern default-left"></span>
-	 
 			<div class="jobplugin__container">
 				<div class="row">
-					<div class="jobplugin__settings-head">
+								<div class="jobplugin__settings-head text-center">
 						<h5 class="fs-4">Purchase Plan To View Your Pre-Approved Loan Offers</h5>
 						
-						<p class="jobplugin__settings-head__text">Instant Pre-Approval | Multiple NBFCs Offers | 100%
+						<p class="jobplugin__settings-head__text pt-0">Instant Pre-Approval | Multiple NBFCs Offers | 100%
 							Paperless Process</p>
 					</div>
-					<div class="col-12 col-md-6 col-lg-6">
-						<div class="jobplugin__userbox bg-light-sky">
+				        <div class="col-12 col-md-6 col-lg-6 mb-md-0 mb-15">
+						<div class="block-holder form-condidates bg-white shadow rounded-1 card-right">
 					 
 							<h6 class="jobplugin__text-secondary fs-6">Subscription Plan</h6>
-							<div class="jobplugin__settings-card bg-white">
-								<header class="jobplugin__settings-card__head d-flex justify-content-start bg-white">
+							 <div class="jobplugin__settings-card bg-white border-0">
+						<header class="jobplugin__settings-card__head d-flex justify-content-start bg-white border-0 ps-0">
 									<h3 class="h6"><?php
 													if ($productdata['inOffer'] == 1) {
 														echo '<h5 class="mb-0"><span class="text-danger"><del>&#8377; ' . formatePrice($productdata['amount']) . ' </del></span> ';
@@ -33,7 +30,7 @@ $this->load->view('includes/header-offer');
 													}
 													?></h3>
 								</header>
-								<div class="jobplugin__settings-card__body">
+								     <div class="jobplugin__settings-card__body p-0">
 									<?php if ($productdata['inOffer'] == 1) { ?>
 										<div class="jobplugin__settings-card__subbox">
 											<ul class="jobplugin__settings-card__subbox-list">
@@ -94,7 +91,7 @@ $this->load->view('includes/header-offer');
 						</div>
 					</div>
 					<div class="col-12 col-md-6 col-lg-6">
-						<div class="jobplugin__userbox bg-light-sky">
+										<div class="block-holder form-condidates bg-white shadow rounded-1 card-right">
 			 
 							<h5 class="jobplugin__text-secondary fs-6">Please Fill Basic Detail</h5>
 							<?php
@@ -145,14 +142,14 @@ $this->load->view('includes/header-offer');
 									to Pay</button>
 							</div>
 							<?php echo form_close(); ?>
-							<p class="jobplugin__userbox-textinfo text-start small">By submitting the form & proceeding, you agree to the <a
+							<p class="jobplugin__userbox-textinfo text-start small"><small class="fa-small">By submitting the form & proceeding, you agree to the <a
 									href="<?php echo site_url('terms-conditions'); ?>" target="_blank"
 									class="text-dark">Terms of Use</a> and <a
 									href="<?php echo site_url('privacy-policy'); ?>" target="_blank"
-									class="text-dark">Privacy Policy</a> of Flexicread.com</p>
+									class="text-dark">Privacy Policy</a> of Flexicread.com</small></p>
 						</div>
 					</div>
-					<div class=" mt-50 section-theme-9">
+		         <div class="pt-80 section-theme-9">
 						<header class="section-header">
 							<h4 class="text-center">Our NBFC Partners</h4>
 							<p class="text-center">Your Bridge to Smarter Financial Opportunities</p>

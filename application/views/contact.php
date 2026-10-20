@@ -1,219 +1,278 @@
 <?php
     $this->load->view('includes/header');
 ?>
-    
-    <section class="wrapper bg-pale-primary">
-      <div class="container pt-10 pt-md-10 pb-8 pb-md-8 text-center">
-        <div class="row">
-          <div class="col-md-12 col-12">
-            <h1 class="display-3 mb-2">Help us serve you better</h1>
-            <p class="lead">Easy Access | Dedicated Team</p>
-          </div>
-          <!-- /column -->
-        </div>
-        <!-- /.row -->
-      </div>
-      <!-- /.container -->
-    </section>
-    <!-- /section -->
-    
-    <section class="wrapper bg-light">
-      <div class="container counter-wrapper mb-5">
-        <div class="row py-10 align-items-center">
-          <div class="col-xl-10 mx-auto">
-            <div class="card">
-              <div class="row gx-0">
-                <div class="col-lg-6 align-self-stretch">
-                  <div class="map map-full rounded-top rounded-lg-start">
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3719.846339769304!2d72.79357421424828!3d21.19826228734747!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be04de179e808f1%3A0xeaf8653dd409d900!2sGreen%20Elina!5e0!3m2!1sen!2sin!4v1661768158131!5m2!1sen!2sin" style="width:100%; height: 100%; border:0" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-                  </div>
-                  <!-- /.map -->
-                </div>
-                <!--/column -->
-                <div class="col-lg-6">
-                  <div class="p-5">
-                    <h2 class="mb-2"><?php echo PROJECT_NAME; ?></h2>
+<div
+    class="visual-block visual-theme-5 bg-dark hero-section text-black pt-60 pt-md-60 pt-xl-40 pb-60 pb-xl-80 pb-md-60">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-12 col-lg-6 col-xl-6">
+                <header class="section-header">
 
-                    <div class="d-flex flex-row mb-3">
-                      <div>
-                        <div class="icon text-primary fs-28 me-4 mt-n1"> <i class="uil uil-location-pin-alt"></i> </div>
-                      </div>
-                      <div class="align-self-start justify-content-start">
-                        <h5 class="mb-1">Address</h5>
-                        <p><?php echo COMPANY_ADDRESS; ?></p>
-                      </div>
-                    </div>
-                    <!--/div -->
-
-                    <div class="d-flex flex-row mb-3">
-                      <div>
-                        <div class="icon text-primary fs-28 me-4 mt-n1"> <i class="uil uil-asterisk"></i> </div>
-                      </div>
-                      <div>
-                        <h5 class="mb-1">CIN No.</h5>
-                        <p><?php echo COMPANY_CIN; ?></p>
-                      </div>
-                    </div>
-                    <!--/div -->
-
-                    <div class="d-flex flex-row mb-3">
-                      <div>
-                        <div class="icon text-primary fs-28 me-4 mt-n1"> <i class="uil uil-phone-volume"></i> </div>
-                      </div>
-                      <div>
-                        <h5 class="mb-1">Phone</h5>
-                        <p><?php echo COMPANY_MOBILE; ?></p>
-                      </div>
-                    </div>
-                    <!--/div -->
-
-                    <div class="d-flex flex-row mb-3">
-                      <div>
-                        <div class="icon text-primary fs-28 me-4 mt-n1"> <i class="uil uil-envelope"></i> </div>
-                      </div>
-                      <div>
-                        <h5 class="mb-1">E-mail</h5>
-                        <p class="mb-0"><a href="mailto:<?php echo COMPANY_EMAIL; ?>" class="link-body"><?php echo COMPANY_EMAIL; ?></a></p>
-                        <p><a href="mailto:<?php echo COMPANY_CP_EMAIL; ?>" class="link-body"><?php echo COMPANY_CP_EMAIL; ?></a></p>
-                      </div>
-                    </div>
-                    <!--/div -->
-                    
-                    <div class="d-flex flex-row mt-4">
-                      <div>
-                        <nav class="nav social text-md-end">
-                            <?php if(SM_FACEBOOK != '#') { ?>
-                              <a href="<?php echo SM_FACEBOOK; ?>" class="btn btn-circle btn-sm btn-facebook"><i class="uil uil-facebook-f"></i></a>
-                            <?php } ?>
-
-                            <?php if(SM_INSTAGRAM != '#') { ?>
-                              <a href="<?php echo SM_INSTAGRAM; ?>" class="btn btn-circle btn-sm btn-instagram"><i class="uil uil-instagram"></i></a>
-                            <?php } ?>
-
-                            <?php if(SM_TWITTER != '#') { ?>
-                              <a href="<?php echo SM_TWITTER; ?>" class="btn btn-circle btn-sm btn-twitter"><i class="uil uil-twitter"></i></a>
-                            <?php } ?>
-
-                            <?php if(SM_LINKEDIN != '#') { ?>
-                              <a href="<?php echo SM_LINKEDIN; ?>" class="btn btn-circle btn-sm btn-linkedin"><i class="uil uil-linkedin"></i></a>
-                            <?php } ?>
-
-                            <?php if(SM_YOUTUBE != '#') { ?>
-                              <a href="<?php echo SM_YOUTUBE; ?>" class="btn btn-circle btn-sm btn-youtube"><i class="uil uil-youtube"></i></a>
-                            <?php } ?>
-                        </nav>
-                        <!-- /.social -->
-                      </div>
-                    </div>
-                    <!--/div -->
-                  </div>
-                  <!--/div -->
-                </div>
-                <!--/column -->
-              </div>
-              <!--/.row -->
+                    <h2 class="mb-10 text-white">Connect with our <span class="text-success">financial experts</span>
+                    </h2>
+                    <p class="text-white">Questions about loan terms or your application? Our support team is here to
+                        help — clear answers, no runaround.</p>
+                </header>
             </div>
-            <!-- /.card -->
-          </div>
-          <!-- /column -->
+            <div class="col-12 col-lg-6 col-xl-6">
+                <ul class="categories-list bg-transparent p-0 rounded-0">
+                    <div class="row g-3">
+                        <div class="col-lg-6 mb-20">
+                            <li class="p-0 h-100">
+                                <div
+                                    class="categories-item flex-wrap align-items-center justify-content-center h-100 flex-column">
+                                    <div>
+                                        <div class="categories-image">
+                                            <span class="icon">
+                                                <i class="fas fa-phone text-white"></i>
+                                            </span>
+                                        </div>
+                                    </div>
+                                    <div class="text-center mt-10">
+
+                                        <strong class="title">Call us</strong>
+                                        <p class="mb-0"><small>Mon–Sat, 10 am – 6:30 pm</small></p>
+
+                                        <p class="text-success mb-0"><small>+91 8796408503</small></p>
+                                    </div>
+                                </div>
+                            </li>
+                        </div>
+                        <div class="col-lg-6 mb-20">
+                            <li class="p-0 h-100">
+                                <div
+                                    class="categories-item flex-wrap align-items-center justify-content-center h-100 flex-column">
+                                    <div>
+                                        <div class="categories-image">
+                                            <span class="icon">
+                                                <i class="fas fa-envelope text-white"></i>
+                                            </span>
+                                        </div>
+                                    </div>
+                                    <div class="text-center mt-10">
+
+                                        <strong class="title">Email us</strong>
+                                        <p class="mb-0"><small>We typically reply within one business day</small></p>
+
+                                        <p class="text-success mb-0"><small>info@rupeeraftaar.com</small></p>
+                                    </div>
+                                </div>
+                            </li>
+                        </div>
+                        <div class="col-lg-12">
+                            <li class="p-0 h-100">
+                                <div
+                                    class="categories-item flex-wrap align-items-center justify-content-center h-100 flex-column">
+                                    <div>
+                                        <div class="categories-image">
+                                            <span class="icon">
+                                                <i class="fas fa-map-marker-alt text-white"></i>
+                                            </span>
+                                        </div>
+                                    </div>
+                                    <div class="text-center mt-10">
+
+                                        <strong class="title">Visit us</strong>
+                                        <p class="mb-0"><small>Office address</small></p>
+
+                                        <p class="text-success mb-0"><small>S-370, Block S, Panchsheel Park South,
+                                                Panchsheel
+                                                Park,
+                                                New
+                                                Delhi, Delhi 110017</small></p>
+                                    </div>
+                                </div>
+                            </li>
+                        </div>
+                    </div>
+                </ul>
+            </div>
         </div>
-        <!-- /.row -->
-      </div>
-      <!-- /.container -->
-    </section>
-    <!-- /section -->
+    </div>
 
-    <section class="wrapper bg-link-water">
-      <div class="container">
-        <div class="row py-10">
-          <div class="col-lg-10 offset-lg-1 col-xl-8 offset-xl-2">
-            <h3 class="display-5 mb-3 text-center">Drop Us a Line</h3>
-            <p class="lead text-center mb-10">Reach out to us from our contact form and we will get back to you shortly.</p>
+</div>
+<div class="banner__img-two partner-bg-img text-center d-flex align-items-center justify-content-center">
+    <img src="<?= base_url('assets/images/partner-bg.png'); ?>" alt="" class="img-fluid d-md-block d-none">
+</div>
+<div class="banner__img-two partner-bg-img text-center d-flex align-items-center">
+    <img src="<?php echo base_url('assets/images/mobile-img.jpeg'); ?>" alt="image" class="img-fluid d-md-none d-block">
+</div>
 
-            <?php echo form_open('infopage/contactsubmission', array('id'=>'contactForm', 'class'=>'', 'novalidate'=>'novalidate')); ?>
-              <div class="messages"></div>
-
-              <div class="row gx-4">
-                <div class="col-md-6">
-                  <div class="form-group form-floating mb-4">
-                    <input id="form_name" type="text" name="name" class="form-control" placeholder="Your Name" required data-validation-regex-regex="^[a-zA-Z ]*$">
-                    <label for="form_name">Full Name *</label>
-                    <div class="help-block font-small-3"></div>
-                  </div>
+<section class="section section-theme-5 pt-0 pt-md-0 pb-xl-80 partner-section">
+    <div class="container">
+        <div class="trending-categories-slider">
+            <?php foreach ($banklist as $row) { ?>
+            <div class="wrap text-center">
+                <div class="justify-content-center categories-image">
+                    <img src="<?php echo base_url('assets/images/bank/' . $row->bank_image); ?>"
+                        alt="<?= $row->bank_name ?>" class="m-auto img-fluid">
                 </div>
-                <!-- /column -->
-                <div class="col-md-6">
-                  <div class="form-group form-floating mb-4">
-                    <input id="form_mobile" type="text" name="mobile" class="form-control" placeholder="Your Mobile" required minlength="10" maxlength="10" inputmode="numeric" data-validation-regex-regex="^[6789]\d{9}$" data-validation-regex-message="Enter valid mobile number">
-                    <label for="form_mobile">Mobile *</label>
-                    <div class="help-block font-small-3"></div>
-                  </div>
-                </div>
-                <!-- /column -->
-                <div class="col-md-6">
-                  <div class="form-group form-floating mb-4">
-                    <input id="form_email" type="email" name="email" class="form-control" placeholder="Your Email Id" required>
-                    <label for="form_email">Email *</label>
-                    <div class="help-block font-small-3"></div>
-                  </div>
-                </div>
-                <!-- /column -->
-                <div class="col-md-6">
-                  <div class="form-group form-floating mb-4">
-                    <input id="form_subject" type="text" name="subject" class="form-control" placeholder="Your subject" required>
-                    <label for="form_subject">Subject *</label>
-                    <div class="help-block font-small-3"></div>
-                  </div>
-                </div>
-                <!-- /column -->
-                <div class="col-12">
-                  <div class="form-group form-floating mb-4">
-                    <textarea id="form_message" name="message" class="form-control" placeholder="Your message" style="height: 150px" required></textarea>
-                    <label for="form_message">Message *</label>
-                    <div class="help-block font-small-3"></div>
-                  </div>
-                </div>
-                <!-- /column -->
-                <div class="col-12 text-center">
-                  <input type="submit" id="submit-btn" class="btn btn-primary btn-sm rounded btn-send mb-3" value="Send message">
-                  <p class="text-muted"><strong>*</strong> These fields are required.</p>
-                </div>
-                <!-- /column -->
-              </div>
-              <!-- /.row -->
-            <?php echo form_close(); ?> 
-            <!-- /form -->
-          </div>
-          <!-- /column -->
+            </div>
+            <?php } ?>
         </div>
-        <!-- /.row -->
-      </div>
-      <!-- /.container -->
-    </section>
-    <!-- /section -->
+    </div>
+</section>
+<section
+    class="section section-contact section-theme-1 pt-60 pt-md-60 py-xl-80 py-xxl-80 pb-60 pb-md-60 contact-section"
+    id="contactus">
+    <div class="container">
+
+        <div class="row">
+            <div class="col-xl-7 col-12 m-auto">
+                <header class="section-header text-center text-lg-center">
+                    <span class="text-success text-uppercase text-outlined text-top mb-10 d-block">Drop Us a
+                        Message</span>
+                    <h2>We'd Love To Help You</h2>
+                    <p class="text-center">Fill in your details and our team will get back to you shortly.</p>
+                </header>
+            </div>
+        </div>
+        <div class="contact-form">
+
+            <div class="row justify-content-between">
+
+                <div class="col-12 col-md-6 col-xl-5 p-0">
+
+                    <ul class="contact-support text-light h-100">
+                        <div class="mb-20">
+                            <h6 class="mb-0">Get in touch</h6>
+                            <p class="text-light">Our team responds within 24 hours.</p>
+                        </div>
+                        <li>
+                            <div class="contact-box ps-0">
+                                <div class="text-start mb-10">
+                                    <div class="icon bg-success">
+                                        <i class="fas fa-map-marker-alt"></i>
+                                    </div>
+                                </div>
+                                <div class="textbox ms-20">
+                                    <h3 class="h4 text-uppercase text-light">Location</h3>
+                                    <address class="text-light"><?php echo COMPANY_ADDRESS; ?></address>
+                                    </address>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="contact-box ps-0">
+                                <div class="text-start mb-10">
+                                    <div class="icon bg-success">
+                                        <i class="fas fa-phone"></i>
+                                    </div>
+                                </div>
+                                <div class="textbox ms-20">
+                                    <h3 class="h4 text-uppercase text-light">Call Us</h3>
+                                    <p>
+                                        <a href="tel:<?php echo COMPANY_MOBILE; ?>"
+                                            class="text-light"><?php echo COMPANY_MOBILE; ?></a>
+                                    </p>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="contact-box mb-0 ps-0">
+                                <div class="text-start mb-10">
+                                    <div class="icon bg-success">
+                                        <i class="fas fa-envelope"></i>
+                                    </div>
+                                </div>
+                                <div class="textbox ms-20">
+                                    <h3 class="h4 text-uppercase text-light">Email</h3>
+                                    <p>
+                                        <a href="mailto:<?php echo COMPANY_EMAIL; ?>"
+                                            class="text-light"><?php echo COMPANY_EMAIL; ?></a>
+                                    </p>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div
+                    class="col-12 col-sm-10 col-md-6 col-xl-7 m-auto mb-40 mb-md-0 bg-white shadow  py-35 contact-form-right border">
+                    <?php echo form_open('infopage/contactsubmission', array('id' => 'contactForm', 'class' => 'contac-form', 'novalidate' => 'novalidate')); ?>
+                    <div class="row">
+                        <div class="form-group col-6 mb-15 mb-md-20 mb-lg-25">
+                            <input class="form-control" type="text" name="fullname" placeholder="Your Name" required
+                                data-validation-regex-regex="^[a-zA-Z ]*$">
+                            <div class="help-block font-small-3"></div>
+                        </div>
+                        <div class="form-group col-6 mb-15 mb-md-20 mb-lg-25">
+                            <input class="form-control" type="text" name="mobile" placeholder="Your Mobile" required
+                                minlength="10" maxlength="10" inputmode="numeric"
+                                data-validation-regex-regex="^[6789]\d{9}$"
+                                data-validation-regex-message="Enter valid mobile number">
+                            <div class="help-block font-small-3"></div>
+                        </div>
+                        <div class="form-group col-6 mb-15 mb-md-20 mb-lg-25">
+                            <input class="form-control" type="email" name="email" placeholder="Your Email Id" required>
+                            <div class="help-block font-small-3"></div>
+                        </div>
+                        <div class="form-group col-6 mb-15 mb-md-20 mb-lg-25">
+                            <input class="form-control" type="text" name="subject" placeholder="Your Subject" required>
+                            <div class="help-block font-small-3"></div>
+                        </div>
+                        <div class="form-group col-12 mb-15 mb-md-20 mb-lg-25">
+                            <textarea class="form-control" name="message" cols="30" rows="10" placeholder="Your Message"
+                                required></textarea>
+                            <div class="help-block font-small-3"></div>
+                        </div>
+                        <div class="col-12">
+                            <button class="btn btn-green btn-sm w-100 text-uppercase"><span
+                                    class="btn-text">Submit</span></button>
+                        </div>
+                    </div>
+                    <?php echo form_close(); ?>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="section section-contact section-theme-1 pt-0 pt-md-0 pb-xl-80 pb-xxl-80 pb-60 pb-md-60 contact-section"
+    id="contactus">
+    <div class="container">
+        <div class="contact-form-wrap p-50">
+            <div class="row">
+                <div class="col-12 col-md-12 col-xl-12">
+                    <div class="text-center">
+                        <div class="mb-20">
+                            <h3 class="text-light">Ready to apply?</h3>
+                            <p class="text-light">Join thousands who trust FlexiCread for fast, fair borrowing.</p>
+                        </div>
+                        <div>
+                            <a href="<?php echo site_url('onlineprocess/applynow'); ?>"
+                                class="btn btn-light btn-shadow btn-sm"><span class="btn-text">Apply Now </span></a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</section>
 
 <?php
     $this->load->view('includes/footer');
 ?>
 
 <script type="text/javascript">
-  $(function(){
-      $('#contactForm').on('submit', function(e) {
-          e.preventDefault();
-          
-          $.ajax({
-              url : $(this).attr('action'),
-              type: "POST",
-              data: $(this).serialize(),
-              dataType: "JSON",
-              cache: false,
-              processData: false,
-              beforeSend: function(){
-                  $('#submit-btn').html("SUBMITTING... <span class='spinner-border spinner-border-sm ms-1' role='status' aria-hidden='true'></span>");
-                  $('#submit-btn').attr('disabled', true);
-              },
-              success: function (response) {
-                if(response['success'] == true) {
+$(function() {
+    $('#contactForm').on('submit', function(e) {
+        e.preventDefault();
+
+        $.ajax({
+            url: $(this).attr('action'),
+            type: "POST",
+            data: $(this).serialize(),
+            dataType: "JSON",
+            cache: false,
+            processData: false,
+            beforeSend: function() {
+                $('#submit-btn').html(
+                    "SUBMITTING... <span class='spinner-border spinner-border-sm ms-1' role='status' aria-hidden='true'></span>"
+                );
+                $('#submit-btn').attr('disabled', true);
+            },
+            success: function(response) {
+                if (response['success'] == true) {
                     document.getElementById("contactForm").reset();
                     toastr.success(response['message']);
                 } else {
@@ -222,13 +281,13 @@
 
                 $('#submit-btn').html('Send Message');
                 $('#submit-btn').attr('disabled', false);
-              },
-              error: function (jXHR, textStatus, errorThrown) {
+            },
+            error: function(jXHR, textStatus, errorThrown) {
                 toastr.error(errorThrown, 'ERROR');
                 $('#submit-btn').html('Send Message');
                 $('#submit-btn').attr('disabled', false);
-              }
-          });
-      });
-  });
-</script> 
+            }
+        });
+    });
+});
+</script>

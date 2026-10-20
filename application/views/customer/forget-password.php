@@ -77,13 +77,13 @@
 
         <main class="main">
       <section
-        class="section section-accounts section-theme-1 pt-35 pt-md-50 pt-lg-75 pt-xl-100 pt-xxl-120 pb-35 pb-md-50 pb-lg-75 pb-xl-100 pb-xxl-120">
+        class="section section-accounts section-theme-1 pt-35 pt-md-50 pt-lg-75 pt-xl-100 pt-xxl-120 pb-35 pb-md-50 pb-lg-75 pb-xl-100 pb-xxl-120 vh-100 d-flex align-items-center justify-content-center">
         <div class="container">
           <div class="row">
-            <div class="col-12 col-md-6">
-              <div class="account-box">
+            <div class="col-12 col-md-6 m-auto">
+                 	<div class="block-holder form-condidates bg-white shadow rounded-1 card-right">  
                 <div class="text-center pb-30" style="margin:auto">
-                  <img src="<?php echo base_url('assets/images/logo/logo-lg.png'); ?>" alt="user" class="img-fluid" width="250px">
+                  <img src="<?php echo base_url('assets/images/logo/logo-lg.png'); ?>" alt="user" class="img-fluid" width="200px">
                 </div>
                 <div class="">
                   <div class="form-head">
@@ -99,21 +99,17 @@
                                 data-validation-regex-message="Enter valid mobile number">
                         </div>
                         <div class="col-12">
-                            <button class="btn btn-green btn-sm"><span class="btn-text">SEND</span></button>
+                            <button class="btn btn-green btn-sm w-100"><span class="btn-text">SEND</span></button>
                         </div>
                     </div>
                     <?php echo form_close(); ?>
-                  <div class="social-login">
+                  <div class="social-login mt-15 text-center">
                     <strong class="title">Don't have an account? <a href="<?php echo site_url('customer'); ?>" class="text-success">Login Now</a></strong>
                   </div>
                 </div>
               </div>
             </div>
-            <div class="col-12 col-md-6">
-              <div class="account-box text-center">
-                  <img src="<?php echo base_url('assets/images/img/customer_img.png'); ?>" class="img-fluid" alt="user">
-              </div>
-            </div>
+        
           </div>
         </div>
       </section>

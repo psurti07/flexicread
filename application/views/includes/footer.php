@@ -1,12 +1,12 @@
 	<!--=====footer-start=======-->
 	<footer class="footer footer-theme-1">
-	    <div class="pri-footer bg-light-gray text-gray pt-35 pt-lg-50 pt-xxl-80 pb-35 pb-md-20">
+	    <div class="pri-footer text-gray pt-35 pt-lg-50 pt-xxl-80 pb-35 pb-md-20">
 	        <div class="container">
 	            <div class="row">
 	                <div class="col-12 col-sm-6 col-md-6 col-lg-3 mb-35 mb-md-45 mb-lg-0">
 	                    <div class="finder-theme-1">
 	                        <img src="<?php echo base_url('assets/images/logo/logo-img.png'); ?>" alt="flexicread"
-	                            class="mb-20 img-fluid">
+	                            class="mb-20 img-fluid" width="195">
 
 	                        <div class="footer-info">
 	                            <div class="form-subscribe mb-20">
@@ -56,7 +56,7 @@
 	                    <ul class="footer-links">
 	                        <li><a href="<?php echo site_url(); ?>">Home</a></li>
 	                        <li><a href="javascript:;" onclick="goToMenu('aboutus')">About Us</a></li>
-	                        <li><a href="javascript:;" onclick="goToMenu('contactus')">Contact</a></li>
+	                        <li><a href="<?php echo site_url('contact'); ?>">Contact</a></li>
 	                        <li><a href="<?php echo site_url('faqs'); ?>">FAQs</a></li>
 							<li><a href="#">Blog</a></li>
 	                    </ul>
@@ -78,20 +78,20 @@
 	                    <ul class="contact-list">
 	                       
 	                        <li>
-	                            <img src="<?php echo base_url('assets/images/icons/map-icon.png'); ?>" alt="Flexicread
+	                            <img src="<?php echo base_url('assets/images/icons/map-icon.png'); ?>" alt="Flexicread"
 	                            class="mb-20 img-fluid">
 
 	                            <span class="text ms-10"><?php echo COMPANY_ADDRESS; ?></span>
 	                        </li>
 	                        <li>
-	                             <img src="<?php echo base_url('assets/images/icons/call-icon.png'); ?>" alt="flexicread
+	                             <img src="<?php echo base_url('assets/images/icons/call-icon.png'); ?>" alt="flexicread"
 	                            class="mb-20 img-fluid">
 
 	                            <span class="text ms-10"><a
 	                                    href="tel:<?php echo COMPANY_MOBILE; ?>"><?php echo COMPANY_MOBILE; ?></a></span>
 	                        </li>
 	                        <li>
-	                               <img src="<?php echo base_url('assets/images/icons/envelope-icon.png'); ?>" alt="flexicread
+	                               <img src="<?php echo base_url('assets/images/icons/envelope-icon.png'); ?>" alt="flexicread"
 	                            class="mb-20 img-fluid">
 
 	                            <span class="text ms-10"><a
@@ -104,7 +104,7 @@
 	            </div>
 	        </div>
 	    </div>
-	    <div class="sec-footer bg-light-gray pt-0 pb-25 py-md-20 py-lg-35">
+	    <div class="sec-footer pt-0 pb-25 py-md-20 py-lg-35">
 	        <div class="container">
 	            <div class="row align-items-center">
 	                <div class="col-12 col-md-6 text-sm-start text-center">

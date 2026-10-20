@@ -3,16 +3,18 @@ $this->load->view('includes/header');
 ?>
 
 <div
-    class="visual-block visual-theme-5 bg-dark hero-section text-black pt-60 pt-md-60 pt-xl-100 pb-60 pb-xl-100 pb-md-60">
+    class="visual-block visual-theme-5 bg-dark hero-section text-black pt-60 pt-md-60 pt-xl-40 pb-40 pb-xl-40 pb-md-40">
     <div class="container position-relative">
         <div class="row align-items-center">
             <div class="col-12 col-lg-7 col-xl-7 position-relative">
                 <div class="me-25">
-                    
                     <div class="visual-textbox pt-0">
-                        <h1 class="text-light" style="line-height: 1.5;">Aapke Sapno Ka <br>Saathi Aapka Apna <br><img src="<?php echo base_url('assets/images/logo/flexiimg.png'); ?>" alt="image" class="me-5">
+                        <h1 class="text-light" style="line-height: 1.5;">Aapke Sapno Ka <br>Saathi Aapka Apna <br><img
+                                src="<?php echo base_url('assets/images/logo/flexiimg.png'); ?>" alt="image"
+                                class="me-5">
                         </h1>
-                        <p class="text-light">Unlock smart tools and insights to manage your money, grow your savings and spend with confidence.</p>
+                        <p class="text-light">Unlock smart tools and insights to manage your money, grow your savings
+                            and spend with confidence.</p>
                         <div
                             class="form-search d-flex flex-column flex-sm-row justify-content-between hero-section-form">
                             <div class="fields-holder bg-white text-black d-flex flex-wrap flex-sm-nowrap ">
@@ -36,69 +38,111 @@ $this->load->view('includes/header');
                                             alt="Video Image"></span></a>
                             </div>
                         </div>
-                        <div class="section-theme-6 pt-0 pb-0">
+                        <div class="pt-0 pb-0">
                             <div class="counters-block pb-0">
                                 <div class="container">
                                     <div class="row justify-content-center justify-content-md-between">
-                                        <div class="col-lg-4 col-4">
-                                            <p class="text-light" style="font-size:14px;"><i class="fas fa-check-circle text-green"></i> No credit card required</p>
+
+                                        <div class="col-lg-12">
+                                            <div class="row">
+                                                <div class="col-lg-4 col-12">
+                                                    <h6 class="text-light d-flex align-items-center fa-sm lh-lg"><i
+                                                            class="fas fa-check-circle text-green subtext me-5"></i> No
+                                                        credit card required
+                                                    </h6>
+                                                </div>
+                                                <div class="col-lg-4 col-12">
+                                                    <h6 class="text-light d-flex align-items-center fa-sm lh-lg"><i
+                                                            class="fas fa-check-circle text-green subtext me-5"></i>
+                                                        7-days free trial</h6>
+                                                </div>
+                                                <div class="col-lg-4 col-12">
+                                                    <h6 class="text-light d-flex align-items-center fa-sm lh-lg"><i
+                                                            class="fas fa-check-circle text-green subtext me-5"></i>
+                                                        Instant setup</h6>
+                                                </div>
+                                            </div>
                                         </div>
-                                         <div class="col-lg-4 col-4">
-                                            <p class="text-light" style="font-size:14px;"><i class="fas fa-check-circle text-green"></i> 7-days free trial</p>
-                                        </div>
-                                        <div class="col-lg-4 col-4">
-                                            <p class="text-light" style="font-size:14px;"><i class="fas fa-check-circle text-green"></i> Instant setup</p>
-                                        </div>
+
                                     </div>
                                 </div>
                             </div>
-                        </div>    
-                        <div class="section-theme-6 pt-0 pb-0">
+                        </div>
+                        <div class="section-theme-6 pt-35 pb-0">
                             <div class="counters-block pb-0">
                                 <div class="container">
-                                    <div class="row justify-content-center justify-content-md-between">
-                                        <div class="col-lg-4 col-4">
-                                            <div class="counter-box">
-                                                <div class="counter-stats">
-                                                    <strong class="numbers h2 mb-0 text-light">
-                                                        <span data-purecounter-duration="1" data-purecounter-start="0"
-                                                            data-purecounter-end="10" data-purecounter-once="true"
-                                                            class="purecounter">10</span>K+
-                                                    </strong>
-                                                    <span class="subtext text-light">Happy Clients</span>
+                                    <div class="row">
+
+                                        <div class="col-lg-3 col-md-3 col-sm-3 col-12">
+                                            <div class="box-agent mb-md-0 mb-10">
+                                                <ul class="agent-img-list d-flex ps-0 list-unstyled">
+                                                    <li class="agent-img-item">
+                                                        <img src="<?php echo base_url('assets/images/Client-1.png'); ?>"
+                                                            alt="image" class="me-md-10 me-0">
+                                                    </li>
+                                                    <li class="agent-img-item">
+                                                        <img src="<?php echo base_url('assets/images/Client-2.png'); ?>"
+                                                            alt="image" class="me-md-10 me-0">
+                                                    </li>
+                                                    <li class="agent-img-item">
+                                                        <img src="<?php echo base_url('assets/images/client-3.png'); ?>"
+                                                            alt="image" class="me-md-10 me-0">
+                                                    </li>
+                                                </ul>
+                                            </div>
+
+                                        </div>
+                                        <div class="col-lg-9 col-md-9 col-sm-9 col-12">
+                                            <div class="row justify-content-center justify-content-md-between">
+                                                <div class="col-lg-4 col-4">
+                                                    <div class="counter-box">
+                                                        <div class="counter-stats">
+                                                            <strong class="numbers h2 mb-0 text-light">
+                                                                <span data-purecounter-duration="1"
+                                                                    data-purecounter-start="0" data-purecounter-end="10"
+                                                                    data-purecounter-once="true"
+                                                                    class="purecounter">10</span>K+
+                                                            </strong>
+                                                            <span class="subtext text-light">Happy Clients</span>
+                                                        </div>
+                                                    </div>
                                                 </div>
+                                                <div class="col-lg-4 col-4">
+
+                                                    <div class="counter-box">
+                                                        <div class="counter-stats">
+                                                            <strong class="numbers h2 mb-0 text-light">
+                                                                <span data-purecounter-duration="1"
+                                                                    data-purecounter-start="0" data-purecounter-end="12"
+                                                                    data-purecounter-once="true"
+                                                                    class="purecounter">₹12</span>Cr+
+                                                            </strong>
+                                                            <span class="subtext text-light">Loans Disbursed</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                                <div class="col-lg-4 col-4">
+                                                    <div class="counter-box">
+                                                        <div class="counter-stats">
+                                                            <strong class="numbers h2 mb-0 text-light">
+                                                                <span data-purecounter-duration="1"
+                                                                    data-purecounter-start="0" data-purecounter-end="10"
+                                                                    data-purecounter-once="true"
+                                                                    class="purecounter">10</span>+
+                                                            </strong>
+                                                            <span class="subtext text-light">NBFC Partners</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+
                                             </div>
                                         </div>
-                                        <div class="col-lg-4 col-4">
-
-                                            <div class="counter-box">
-                                                <div class="counter-stats">
-                                                    <strong class="numbers h2 mb-0 text-light">
-                                                        <span data-purecounter-duration="1" data-purecounter-start="0"
-                                                            data-purecounter-end="12" data-purecounter-once="true"
-                                                            class="purecounter">₹12</span>Cr+
-                                                    </strong>
-                                                    <span class="subtext text-light">Loans Disbursed</span>
-                                                </div>
-                                            </div>
-                                        </div>
-
-                                        <div class="col-lg-4 col-4">
-                                            <div class="counter-box">
-                                                <div class="counter-stats">
-                                                    <strong class="numbers h2 mb-0 text-light">
-                                                        <span data-purecounter-duration="1" data-purecounter-start="0"
-                                                            data-purecounter-end="10" data-purecounter-once="true"
-                                                            class="purecounter">10</span>+
-                                                    </strong>
-                                                    <span class="subtext text-light">NBFC Partners</span>
-                                                </div>
-                                            </div>
-                                        </div>
-
-
                                     </div>
+
                                 </div>
+
                             </div>
                         </div>
                     </div>
@@ -107,25 +151,21 @@ $this->load->view('includes/header');
             <div class="col-12 col-lg-5 col-xl-5">
                 <img src="<?php echo base_url('assets/images/img/home-img-1.png'); ?>" alt="image" class="img-fluid">
             </div>
+
         </div>
     </div>
+
+</div>
+<div class="banner__img-two partner-bg-img text-center d-flex align-items-center justify-content-center">
+    <img src="<?= base_url('assets/images/partner-bg.png'); ?>" alt="" class="img-fluid d-md-block d-none">
+</div>
+<div class="banner__img-two partner-bg-img text-center d-flex align-items-center">
+    <img src="<?php echo base_url('assets/images/mobile-img.jpeg'); ?>" alt="image" class="img-fluid d-md-none d-block">
 </div>
 
 <main class="main">
-    
-
-    <section class="section section-theme-5 pt-60 pt-md-60 pt-xl-100 partner-section">
+    <section class="section section-theme-5 pt-0 pt-md-0 pb-xl-0 pb-0 partner-section">
         <div class="container">
-            <div class="row">
-                <div class="col-xl-7 col-12 m-auto">
-                    <header class="section-header d-flex flex-column text-center mb-40">
-                        <h2>Meet Our NBFC Partners</h2>
-                        <p>We partner with the best to serve you better.
-                        <p>
-                    </header>
-                </div>
-            </div>
-
             <div class="trending-categories-slider">
                 <?php foreach ($banklist as $row) { ?>
                 <div class="wrap text-center">
@@ -139,12 +179,11 @@ $this->load->view('includes/header');
         </div>
     </section>
 
-
     <section
-        class="section section-theme-2 featured-joblix-block pt-60 pt-md-60 pt-xl-100 pb-60 pb-xl-100 pb-md-60 about-section"
+        class="section section-theme-2 featured-joblix-block pt-60 pt-md-60 pt-xl-0 pb-60 pb-xl-80 pb-md-60 about-section"
         id="aboutus">
         <div class="container">
-            
+
             <div class="row align-items-center">
 
                 <div class="col-12 col-lg-6 mt-10 mb-15 mb-md-30 mb-lg-0">
@@ -161,8 +200,8 @@ $this->load->view('includes/header');
                             centric service.</p>
                     </header>
                 </div>
-                <div class="col-12 col-lg-6 mt-10 mb-15 mb-md-30 mb-lg-0 aboutus-cnt">
-                    <ul class="categories-list">
+                <div class="col-12 col-lg-6 mt-10 aboutus-cnt">
+                    <ul class="categories-list mb-0">
                         <li>
                             <div class="categories-item">
                                 <div>
@@ -226,103 +265,102 @@ $this->load->view('includes/header');
         </div>
     </section>
 
-    <section
-        class="section section-theme-5 how-work-block pt-60 pt-md-60 pt-xl-100 pb-60 pb-xl-100 pb-md-60 bg-light-sky">
+    <section class="section section-theme-5 how-work-block pt-60 pt-md-60 py-xl-80 pb-60 pb-md-60 bg-light-sky">
         <div class="container">
             <div class="row">
                 <div class="col-xl-7 col-12 m-auto">
-
                     <header class="section-header text-center text-lg-center">
                         <span class="text-success text-uppercase text-outlined text-top mb-15 d-block">Our
                             Process</span>
-                        <h2>How It Works</h2>
+                        <h2>How It <span class="text-success">Works</span></h2>
                         <p class="text-center">Six simple steps between you and the funds you need.</p>
                     </header>
-
-
-
                 </div>
             </div>
 
-            <div class="row align-items-center">
-                <div class="col-lg-12 col-12">
-                    <div class="row process-boxes justify-content-center">
-                        <div class="col-md-4 col-sm-6">
-                            <a href="#" class="text-center">
-                                <div class="icon mb-20">
-                                    <img src="<?php echo base_url('assets/images/icons/s1.png'); ?>"
-                                        alt="icon">
-                                </div>
-                                <h6>Start The Process</h6>
-                                <p>Begin the process by entering your basic information, such as your bank-registered name and mobile number.</p>
-                            </a>
+
+            <div class="row process-boxes justify-content-center">
+                <div class="col-md-4 col-sm-6 mb-10">
+                    <a href="#" class="text-center">
+                        <div class="icon mb-20">
+                            <img src="<?php echo base_url('assets/images/icons/s1.png'); ?>" alt="icon">
                         </div>
-                        <div class="col-md-4 col-sm-6">
-                            <a href="#" class="text-center">
-                                <div class="icon mb-20">
-                                    <img src="<?php echo base_url('assets/images/icons/s2.png'); ?>"
-                                        alt="icon">
-                                </div>
-                                <h6>Check Eligibility</h6>
-                                <p>Our system will display pre-approved loan offer(s) based on the info you submitted. This is not the final offer. </p>
-                            </a>
-                        </div>
-                        <div class="col-md-4 col-sm-6">
-                            <a href="#" class="text-center">
-                                <div class="icon mb-20">
-                                    <img src="<?php echo base_url('assets/images/icons/s3.png'); ?>"
-                                        alt="icon">
-                                </div>
-                                <h6>Buy Subscription Plan</h6>
-                                <p>Buy the subscription plan to access the displayed pre-approved offer(s) using one of the multiple payment options. </p>
-                            </a>
-                        </div>
-                        <div class="col-md-4 col-sm-6">
-                            <a href="#" class="text-center">
-                                <div class="icon mb-20">
-                                    <img src="<?php echo base_url('assets/images/icons/s4.png'); ?>"
-                                        alt="icon">
-                                </div>
-                                <h6>Submit Documents</h6>
-                                <p>Submit the required documents to your customer portal using the login credentials sent to your registered email address. </p>
-                            </a>
-                        </div>
-                        <div class="col-md-4 col-sm-6">
-                            <a href="#" class="text-center">
-                                <div class="icon mb-20">
-                                    <img src="<?php echo base_url('assets/images/icons/s5.png'); ?>"
-                                        alt="icon">
-                                </div>
-                                <h6>Bank Verification</h6>
-                                <p>The NBFC will verify your documents and profile in accordance with their policies and guidelines.</p>
-                            </a>
-                        </div>
-                        <div class="col-md-4 col-sm-6">
-                                <a href="#" class="text-center">
-                                    <div class="icon mb-20">
-                                        <img src="<?php echo base_url('assets/images/icons/s6.png'); ?>"
-                                            alt="icon">
-                                    </div>
-                                    <h6>Bank Sanction</h6>
-                                    <p>The NBFC will approve, sanction, and disburse the loan based on your profile and their rules & regulations.</p>
-                                </a>
-                            </div>
-                    </div>
+                        <h6 class="text-dark">Start The Process</h6>
+                        <p class="text-dark">Begin the process by entering your basic information, such as your
+                            bank-registered name and
+                            mobile number.</p>
+                    </a>
                 </div>
-                
+                <div class="col-md-4 col-sm-6 mb-10">
+                    <a href="#" class="text-center">
+                        <div class="icon mb-20">
+                            <img src="<?php echo base_url('assets/images/icons/s2.png'); ?>" alt="icon">
+                        </div>
+                        <h6 class="text-dark">Check Eligibility</h6>
+                        <p class="text-dark">Our system will display pre-approved loan offer(s) based on the info you
+                            submitted. This is
+                            not the final offer. </p>
+                    </a>
+                </div>
+                <div class="col-md-4 col-sm-6 mb-10">
+                    <a href="#" class="text-center">
+                        <div class="icon mb-20">
+                            <img src="<?php echo base_url('assets/images/icons/s3.png'); ?>" alt="icon">
+                        </div>
+                        <h6 class="text-dark">Buy Subscription Plan</h6>
+                        <p class="text-dark">Buy the subscription plan to access the displayed pre-approved offer(s)
+                            using one of the
+                            multiple payment options. </p>
+                    </a>
+                </div>
+                <div class="col-md-4 col-sm-6 mb-10">
+                    <a href="#" class="text-center">
+                        <div class="icon mb-20">
+                            <img src="<?php echo base_url('assets/images/icons/s4.png'); ?>" alt="icon">
+                        </div>
+                        <h6 class="text-dark">Submit Documents</h6>
+                        <p class="text-dark">Submit the required documents to your customer portal using the login
+                            credentials sent to
+                            your registered email address. </p>
+                    </a>
+                </div>
+                <div class="col-md-4 col-sm-6 mb-10">
+                    <a href="#" class="text-center">
+                        <div class="icon mb-20">
+                            <img src="<?php echo base_url('assets/images/icons/s5.png'); ?>" alt="icon">
+                        </div>
+                        <h6 class="text-dark">Bank Verification</h6>
+                        <p class="text-dark">The NBFC will verify your documents and profile in accordance with their
+                            policies and
+                            guidelines.</p>
+                    </a>
+                </div>
+                <div class="col-md-4 col-sm-6 mb-0">
+                    <a href="#" class="text-center">
+                        <div class="icon mb-20">
+                            <img src="<?php echo base_url('assets/images/icons/s6.png'); ?>" alt="icon">
+                        </div>
+                        <h6 class="text-dark">Bank Sanction</h6>
+                        <p class="text-dark mb-0">The NBFC will approve, sanction, and disburse the loan based on your
+                            profile and their rules
+                            & regulations.</p>
+                    </a>
+                </div>
             </div>
+
+
+
         </div>
     </section>
 
-    
-    <section
-        class="section section-theme-12 how-we-help-block pt-60 pt-md-60 pt-xl-100 pb-60 pb-xl-100 pb-md-60">
+
+    <section class="section section-theme-12 how-we-help-block pt-60 pt-md-60 py-xl-80 pb-60 pb-md-60">
         <div class="container">
             <div class="row">
-                <div class="col-12 col-md-12 col-lg-5 txt-col mb-20">
+                <div class="col-12 col-md-12 col-lg-5 txt-col mb-lg-0 mb-20">
 
                     <p class="mb-10 mb-lg-15 title-text text-success text-uppercase">Why Choose Us?</p>
-                    <h2 class="mb-15">What Makes <span class="text-success">MyFinance <br> Bazar </span>Emerge as the
+                    <h2 class="mb-15">What Makes <span class="text-success">FlexiCread <br> </span>Emerge as the
                         Best?</h2>
                     <p>At Flexicread, we are defined by our commitment to
                         quality, customer-focused methodology, and the goal of
@@ -339,58 +377,67 @@ $this->load->view('includes/header');
                     </ul>
                 </div>
                 <div class="col-12 col-md-12 col-lg-7 img-col">
-                    <div class="two-columns">
-                        <div class="column bg-white">
-                            <div class="text-start mb-10">
-
-                                <div class="icon">
-                                    <img src="<?php echo base_url('assets/images/icons/network.png'); ?>" alt="icon">
+                    <div class="two-columns column-left">
+                        <div class="column">
+                            <div class="d-flex align-items-center">
+                                <div class="text-start mb-10">
+                                    <div class="icon">
+                                        <img src="<?php echo base_url('assets/images/icons/network.png'); ?>"
+                                            alt="icon">
+                                    </div>
                                 </div>
-                            </div>
-                            <div class="text-start">
-                                <h6>Trusted NBFC Network</h6>
-                                <p class="mt-10">Enjoy the highly customised financial
-                                    services made possible by our industry
-                                    connections.</p>
+                                <div class="text-start ms-15">
+                                    <h6>Trusted NBFC Network</h6>
+                                    <p class="mt-10">Enjoy the highly customised financial
+                                        services made possible by our industry
+                                        connections.</p>
+                                </div>
                             </div>
                         </div>
-                        <div class="column bg-white">
-                            <div class="text-start mb-10">
-                                <div class="icon">
-                                    <img src="<?php echo base_url('assets/images/icons/consultation.png'); ?>"
-                                        alt="icon">
+                        <div class="column">
+                            <div class="d-flex align-items-center">
+                                <div class="text-start mb-10">
+                                    <div class="icon">
+                                        <img src="<?php echo base_url('assets/images/icons/consultation.png'); ?>"
+                                            alt="icon">
+                                    </div>
                                 </div>
-                            </div>
-                            <div class="text-start">
-                                <h6>Consultation That Cares</h6>
-                                <p class="mt-10">Get one-on-one guidance from certified
-                                    financial experts, whenever you need it.</p>
+                                <div class="text-start ms-15">
+                                    <h6>Consultation That Cares</h6>
+                                    <p class="mt-10">Get one-on-one guidance from certified
+                                        financial experts, whenever you need it.</p>
+                                </div>
                             </div>
                         </div>
-                        <div class="column bg-white">
-                            <div class="text-start mb-10">
-                                <div class="icon">
-                                    <img src="<?php echo base_url('assets/images/icons/client.png'); ?>" alt="icon">
+                        <div class="column">
+                            <div class="d-flex align-items-center">
+                                <div class="text-start mb-10">
+                                    <div class="icon">
+                                        <img src="<?php echo base_url('assets/images/icons/client.png'); ?>" alt="icon">
+                                    </div>
                                 </div>
-                            </div>
-                            <div class="text-start">
-                                <h6>Client-First Approach</h6>
-                                <p class="mt-10">Our team works as an extension of you —
-                                    every recommendation is built around your
-                                    goals.</p>
+                                <div class="text-start ms-15">
+                                    <h6>Client-First Approach</h6>
+                                    <p class="mt-10">Our team works as an extension of you —
+                                        every recommendation is built around your
+                                        goals.</p>
+                                </div>
                             </div>
                         </div>
-                        <div class="column bg-white">
-                            <div class="text-start mb-10">
-                                <div class="icon">
-                                    <img src="<?php echo base_url('assets/images/icons/journey.png'); ?>" alt="icon">
+                        <div class="column">
+                            <div class="d-flex align-items-center">
+                                <div class="text-start mb-10">
+                                    <div class="icon">
+                                        <img src="<?php echo base_url('assets/images/icons/journey.png'); ?>"
+                                            alt="icon">
+                                    </div>
                                 </div>
-                            </div>
-                            <div class="text-start">
-                                <h6>Fully Online Journey</h6>
-                                <p class="mt-10">From application to disbursal, everything
-                                    happens digitally with zero paperwork
-                                    stress.</p>
+                                <div class="text-start ms-15">
+                                    <h6>Fully Online Journey</h6>
+                                    <p class="mt-10">From application to disbursal, everything
+                                        happens digitally with zero paperwork
+                                        stress.</p>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -399,42 +446,39 @@ $this->load->view('includes/header');
         </div>
     </section>
 
-     <section
-        class="section section-theme-5 how-work-block pt-60 pt-md-60 pt-xl-100 pb-60 pb-xl-100 pb-md-60 bg-light-sky">
+    <section class="section section-theme-5 how-work-block pt-60 pt-md-60 py-xl-80 pb-60 pb-md-60 bg-light-sky">
         <div class="container">
             <div class="row">
                 <div class="col-xl-12 col-12 m-auto">
-
                     <header class="section-header text-center text-lg-center">
-                        <span class="text-success text-uppercase text-outlined text-top mb-15 d-block">EMI CALCULATOR</span>
-                        <h2>Plan your monthly repayment</h2>
-                        <p class="text-center">Use this indicative calculator to understand how amount, rate and tenure affect EMI.</p>
+                        <span class="text-success text-uppercase text-outlined text-top mb-15 d-block">EMI
+                            CALCULATOR</span>
+                        <h2>Plan your monthly <span class="text-success">repayment</span> </h2>
+                        <p class="text-center ">Use this indicative calculator to understand how amount, rate and tenure
+                            affect EMI.</p>
                     </header>
-
-
-
                 </div>
             </div>
 
             <div class="row align-items-center">
                 <div class="col-lg-12 col-12">
                     <div class="row">
-                         
-                    <script src="https://emicalculator.net/widget/2.0/js/emicalc-loader.min.js" type="text/javascript">
-                    </script>
-                    <div id="ecww-widgetwrapper" style="min-width:250px;width:100%;">
-                        <div id="ecww-widget"
-                            style="position:relative;padding-top:0;padding-bottom:280px;height:0;overflow:hidden;">
+
+                        <script src="https://emicalculator.net/widget/2.0/js/emicalc-loader.min.js"
+                            type="text/javascript">
+                        </script>
+                        <div id="ecww-widgetwrapper" style="min-width:250px;width:100%;">
+                            <div id="ecww-widget"
+                                style="position:relative;padding-top:0;padding-bottom:280px;height:0;overflow:hidden;">
+                            </div>
                         </div>
-                    </div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <section
-        class="section section-theme-9 featured_Jobs_Block pt-60 pt-md-60 pt-xl-100 pb-60 pb-xl-100 pb-md-60"
+    <section class="section section-theme-9 featured_Jobs_Block pt-60 pt-md-60 py-xl-80 pb-60 pb-md-60"
         id="testimonial">
         <div class="container">
             <div class="row">
@@ -442,24 +486,25 @@ $this->load->view('includes/header');
                     <header class="section-header text-center text-lg-center">
                         <span
                             class="text-success text-uppercase text-outlined text-top mb-0 d-block">Testimonials</span>
-                        <h2>Clients Testimonial</h2>
+                        <h2>Clients <span class="text-success">Testimonial</span> </h2>
                         <p class="text-center">Hear what our clients have to say about us.</p>
                     </header>
                 </div>
             </div>
             <div class="row">
                 <div class="col-xl-3 col-12 m-auto">
-                    <div class="col-xl-12 col-12 m-auto" style="background: linear-gradient(180deg, #4D0690 0%, #8B52C0 100%);padding: 50px; border-radius: 24px;">
-                        <header class="section-header text-center text-lg-center">   
+                    <div
+                        style="background: linear-gradient(180deg, #4D0690 0%, #8B52C0 100%);padding: 50px; border-radius: 24px;">
+                        <header class="section-header text-center text-lg-center mb-0">
                             <h2 class="text-light">4.9</h2>
-                           <div class="testimonial__rating justify-content-center mb-2 text-warning">
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                        </div>
-                        <p class="text-light">Customer Reviews</p>
+                            <div class="testimonial__rating justify-content-center mb-2 text-warning">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                            <p class="text-light">Customer Reviews</p>
                         </header>
                     </div>
                 </div>
@@ -468,8 +513,8 @@ $this->load->view('includes/header');
                         <?php $testimoniallist = array('testimonials-1.png', 'testimonials-2.png', 'testimonials-3.png', 'testimonials-1.png', 'testimonials-2.png', 'testimonials-3.png') ?>
                         <div class="client_testimonials_slider">
                             <div>
-                                <div class="">
-                                    <p class="card-position">Rohan Bedi</p>
+                                <div class="bg-light-sky p-15 border testimonials-card-content">
+                                    <p class="card-position mb-0">Rohan Bedi</p>
                                     <div class="rates-review">
                                         <img src="<?= base_url('assets/images/star.svg'); ?>" />
                                         <img src="<?= base_url('assets/images/star.svg'); ?>" />
@@ -478,13 +523,15 @@ $this->load->view('includes/header');
                                         <img src="<?= base_url('assets/images/star.svg'); ?>" />
                                     </div>
                                     <div class="card-comment">
-                                        <p>flexicread made the application process easier to understand. The guidance on documents and next steps was helpful.”</p>
+                                        <p class="lh-normal">flexicread made the application process easier to
+                                            understand. The guidance on
+                                            documents and next steps was helpful.”</p>
                                     </div>
                                 </div>
                             </div>
                             <div>
-                                <div class="">
-                                    <p class="card-position">Rohan Bedi</p>
+                                <div class="bg-light-sky p-15 border testimonials-card-content">
+                                    <p class="card-position mb-0">Rohan Bedi</p>
                                     <div class="rates-review">
                                         <img src="<?= base_url('assets/images/star.svg'); ?>" />
                                         <img src="<?= base_url('assets/images/star.svg'); ?>" />
@@ -493,13 +540,14 @@ $this->load->view('includes/header');
                                         <img src="<?= base_url('assets/images/star.svg'); ?>" />
                                     </div>
                                     <div class="card-comment">
-                                        <p>flexicread made the application process easier to understand. The guidance on documents and next steps was helpful.”</p>
+                                        <p>flexicread made the application process easier to understand. The guidance on
+                                            documents and next steps was helpful.”</p>
                                     </div>
                                 </div>
                             </div>
                             <div>
-                                <div class="">
-                                    <p class="card-position">Rohan Bedi</p>
+                                <div class="bg-light-sky p-15 border testimonials-card-content">
+                                    <p class="card-position mb-0">Rohan Bedi</p>
                                     <div class="rates-review">
                                         <img src="<?= base_url('assets/images/star.svg'); ?>" />
                                         <img src="<?= base_url('assets/images/star.svg'); ?>" />
@@ -508,13 +556,14 @@ $this->load->view('includes/header');
                                         <img src="<?= base_url('assets/images/star.svg'); ?>" />
                                     </div>
                                     <div class="card-comment">
-                                        <p>flexicread made the application process easier to understand. The guidance on documents and next steps was helpful.”</p>
+                                        <p>flexicread made the application process easier to understand. The guidance on
+                                            documents and next steps was helpful.”</p>
                                     </div>
                                 </div>
                             </div>
                             <div>
-                                <div class="">
-                                    <p class="card-position">Rohan Bedi</p>
+                                <div class="bg-light-sky p-15 border testimonials-card-content">
+                                    <p class="card-position mb-0">Rohan Bedi</p>
                                     <div class="rates-review">
                                         <img src="<?= base_url('assets/images/star.svg'); ?>" />
                                         <img src="<?= base_url('assets/images/star.svg'); ?>" />
@@ -523,13 +572,14 @@ $this->load->view('includes/header');
                                         <img src="<?= base_url('assets/images/star.svg'); ?>" />
                                     </div>
                                     <div class="card-comment">
-                                        <p>flexicread made the application process easier to understand. The guidance on documents and next steps was helpful.”</p>
+                                        <p>flexicread made the application process easier to understand. The guidance on
+                                            documents and next steps was helpful.”</p>
                                     </div>
                                 </div>
                             </div>
                             <div>
-                                <div class="">
-                                    <p class="card-position">Rohan Bedi</p>
+                                <div class="bg-light-sky p-15 border testimonials-card-content">
+                                    <p class="card-position mb-0">Rohan Bedi</p>
                                     <div class="rates-review">
                                         <img src="<?= base_url('assets/images/star.svg'); ?>" />
                                         <img src="<?= base_url('assets/images/star.svg'); ?>" />
@@ -538,13 +588,14 @@ $this->load->view('includes/header');
                                         <img src="<?= base_url('assets/images/star.svg'); ?>" />
                                     </div>
                                     <div class="card-comment">
-                                        <p>flexicread made the application process easier to understand. The guidance on documents and next steps was helpful.”</p>
+                                        <p>flexicread made the application process easier to understand. The guidance on
+                                            documents and next steps was helpful.”</p>
                                     </div>
                                 </div>
                             </div>
                             <div>
-                                <div class="">
-                                    <p class="card-position">Rohan Bedi</p>
+                                <div class="bg-light-sky p-15 border testimonials-card-content">
+                                    <p class="card-position mb-0">Rohan Bedi</p>
                                     <div class="rates-review">
                                         <img src="<?= base_url('assets/images/star.svg'); ?>" />
                                         <img src="<?= base_url('assets/images/star.svg'); ?>" />
@@ -553,7 +604,8 @@ $this->load->view('includes/header');
                                         <img src="<?= base_url('assets/images/star.svg'); ?>" />
                                     </div>
                                     <div class="card-comment">
-                                        <p>flexicread made the application process easier to understand. The guidance on documents and next steps was helpful.”</p>
+                                        <p>flexicread made the application process easier to understand. The guidance on
+                                            documents and next steps was helpful.”</p>
                                     </div>
                                 </div>
                             </div>
@@ -561,143 +613,178 @@ $this->load->view('includes/header');
                     </div>
                 </div>
             </div>
-            
+
         </div>
     </section>
-<section class="section section-theme-1 bg-light-sky section-faqs pt-35 pt-md-50 pt-lg-75 pt-xl-100 pt-xxl-125 pb-35 pb-md-50 pb-lg-75 pb-xl-100 pb-xxl-125 ">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-4">
-          
+    <section
+        class="section section-theme-1 bg-light-sky section-faqs pt-35 pt-md-50 pt-lg-75 py-xl-80 py-xxl-80 pb-35 pb-md-50 pb-lg-75">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+
                     <p class="mb-10 mb-lg-15 title-text text-success text-uppercase">FAQ</p>
                     <h2 class="mb-15">Frequently Asked Questions</h2>
-                    <p>Got questions? We’ve got answers. Here’s everything you need to know about applying for a loan with Flexicread.</p>
-                   
+                    <p>Got questions? We’ve got answers. Here’s everything you need to know about applying for a loan
+                        with Flexicread.</p>
+
+                </div>
+                <div class="col-md-8">
+                    <div class="accordion" id="faq-accordion-2">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingOne">
+                                <button class="accordion-button collapsed bg-white justify-content-between border"
+                                    type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
+                                    aria-expanded="false" aria-controls="collapseOne">
+
+                                    <span class="title">What purposes can a personal loan be used for?</span>
+                                    <span class="bullet me-0"></span>
+                                </button>
+                            </h2>
+                            <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne"
+                                data-bs-parent="#faq-accordion-1">
+                                <div class="accordion-body">
+                                    <p>A personal loan can be used for any personal expenses, including paying-off
+                                        unexpected bills, debt consolidation, wedding expenses, higher education, home
+                                        renovation, travel, shopping, covering a business cost, etc.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingTwo">
+                                <button class="accordion-button collapsed bg-white justify-content-between border"
+                                    type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo"
+                                    aria-expanded="false" aria-controls="collapseTwo">
+
+                                    <span class="title">Do I have to pledge any assets to avail a personal loan?</span>
+                                    <span class="bullet me-0"></span>
+                                </button>
+                            </h2>
+                            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                                data-bs-parent="#faq-accordion-1">
+                                <div class="accordion-body">
+                                    <p>A personal loan is an unsecured type of credit, which means you do not have to
+                                        pledge any assets as collateral.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingThree">
+                                <button class="accordion-button collapsed bg-white justify-content-between border"
+                                    type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree"
+                                    aria-expanded="false" aria-controls="collapseThree">
+
+                                    <span class="title">How do I know if I am eligible for a personal loan?</span>
+                                    <span class="bullet me-0"></span>
+                                </button>
+                            </h2>
+                            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                                data-bs-parent="#faq-accordion-1">
+                                <div class="accordion-body">
+                                    <p>
+                                        Here are the common eligibility criteria for a personal loan:<br>
+                                        <strong>Salaried Professionals</strong><br>
+                                    <ul>
+                                        <li>Minimum Age: 21 years</li>
+                                        <li>Minimum Monthly Income: Rs. 15,000 (should reflect in the bank)s</li>
+                                        <li>Minimum Job Stability: 1 Year</li>
+                                    </ul>
+                                    <strong>Self-employed Individuals</strong><br>
+                                    <ul>
+                                        <li>Minimum Age: 21 years</li>
+                                        <li>Minimum ITR: 1 Year</li>
+                                        <li>Minimum Business Stability: 1 Year</li>
+                                    </ul>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingFour">
+                                <button class="accordion-button collapsed bg-white justify-content-between border"
+                                    type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour"
+                                    aria-expanded="false" aria-controls="collapseFour">
+
+                                    <span class="title">What are the documents required for applying for a personal
+                                        loan?</span>
+                                    <span class="bullet me-0"></span>
+                                </button>
+                            </h2>
+                            <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
+                                data-bs-parent="#faq-accordion-1">
+                                <div class="accordion-body">
+                                    <p>
+                                        When applying for a personal loan, the following general documents are needed:
+                                        <br>
+                                        <strong>For Salaried:</strong> <br>
+                                    <ul>
+                                        <li>Aadhaar Card</li>
+                                        <li>PAN Card</li>
+                                        <li>Residence Proof</li>
+                                        <li>Bank Statement</li>
+                                        <li>Income Proof</li>
+                                    </ul>
+                                    <strong>For Self-Employed:</strong> <br>
+                                    <ul>
+                                        <li>Aadhaar Card</li>
+                                        <li>PAN Card</li>
+                                        <li>Residence Proof</li>
+                                        <li>Bank Statement</li>
+                                        <li>Income Computation</li>
+                                        <li>Profit & Loss Account Statement</li>
+                                        <li>Balance Sheet</li>
+                                        <li>Service Tax Registration, License, Registration Certificate</li>
+                                        <li>Clearance Certificate/IT Assessment</li>
+                                        <li>Income Tax Returns</li>
+                                    </ul>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingFive">
+                                <button class="accordion-button collapsed bg-white justify-content-between border"
+                                    type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive"
+                                    aria-expanded="false" aria-controls="collapseFive">
+
+                                    <span class="title">Can I get tax benefits on personal loans?</span>
+                                    <span class="bullet me-0"></span>
+                                </button>
+                            </h2>
+                            <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive"
+                                data-bs-parent="#faq-accordion-1">
+                                <div class="accordion-body">
+                                    <p>Personal loans do not have any direct tax benefits. However, if you use the funds
+                                        to renovate your house or to incur business expenses, you may get tax benefits
+                                        under the Income Tax Act of India.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header mb-0" id="headingSix">
+                                <button class="accordion-button collapsed bg-white justify-content-between border"
+                                    type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix"
+                                    aria-expanded="false" aria-controls="collapseSix">
+
+                                    <span class="title">Why is having a good credit score so important?</span>
+                                    <span class="bullet me-0"></span>
+                                </button>
+                            </h2>
+                            <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix"
+                                data-bs-parent="#faq-accordion-2">
+                                <div class="accordion-body">
+                                    <p>Your credit score represents your creditworthiness and repayment ability. Your
+                                        chances of obtaining a loan with favourable terms and a low interest rate are
+                                        very high if your credit score is high.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-        <div class="col-md-8">
-          <div class="accordion" id="faq-accordion-2">
-            <div class="accordion-item">
-              <h2 class="accordion-header" id="headingOne">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
-                  <span class="bullet"></span>
-                  <span class="title">What purposes can a personal loan be used for?</span>
-                </button>
-              </h2>
-              <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#faq-accordion-1">
-                <div class="accordion-body">
-                  <p>A personal loan can be used for any personal expenses, including paying-off unexpected bills, debt consolidation, wedding expenses, higher education, home renovation, travel, shopping, covering a business cost, etc.</p>
-                </div>
-              </div>
-            </div>
-            <div class="accordion-item">
-              <h2 class="accordion-header" id="headingTwo">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                  <span class="bullet"></span>
-                  <span class="title">Do I have to pledge any assets to avail a personal loan?</span>
-                </button>
-              </h2>
-              <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#faq-accordion-1">
-                <div class="accordion-body">
-                  <p>A personal loan is an unsecured type of credit, which means you do not have to pledge any assets as collateral.</p>
-                </div>
-              </div>
-            </div>
-            <div class="accordion-item">
-              <h2 class="accordion-header" id="headingThree">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                  <span class="bullet"></span>
-                  <span class="title">How do I know if I am eligible for a personal loan?</span>
-                </button>
-              </h2>
-              <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#faq-accordion-1">
-                <div class="accordion-body">
-                  <p>
-                    Here are the common eligibility criteria for a personal loan:<br>
-                    <strong>Salaried Professionals</strong><br>
-                    <ul>
-                      <li>Minimum Age: 21 years</li>
-                      <li>Minimum Monthly Income: Rs. 15,000 (should reflect in the bank)s</li>
-                      <li>Minimum Job Stability: 1 Year</li>
-                    </ul>
-                    <strong>Self-employed Individuals</strong><br>
-                    <ul>
-                      <li>Minimum Age: 21 years</li>
-                      <li>Minimum ITR: 1 Year</li>
-                      <li>Minimum Business Stability: 1 Year</li>
-                    </ul>
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div class="accordion-item">
-              <h2 class="accordion-header" id="headingFour">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-                  <span class="bullet"></span>
-                  <span class="title">What are the documents required for applying for a personal loan?</span>
-                </button>
-              </h2>
-              <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#faq-accordion-1">
-                <div class="accordion-body">
-                  <p>
-                  When applying for a personal loan, the following general documents are needed: <br>
-                    <strong>For Salaried:</strong> <br>
-                    <ul>
-                      <li>Aadhaar Card</li>
-                      <li>PAN Card</li>
-                      <li>Residence Proof</li>
-                      <li>Bank Statement</li>
-                      <li>Income Proof</li>
-                    </ul>
-                    <strong>For Self-Employed:</strong> <br>
-                    <ul>
-                      <li>Aadhaar Card</li>
-                      <li>PAN Card</li>
-                      <li>Residence Proof</li>
-                      <li>Bank Statement</li>
-                      <li>Income Computation</li>
-                      <li>Profit & Loss Account Statement</li>
-                      <li>Balance Sheet</li>
-                      <li>Service Tax Registration, License, Registration Certificate</li>
-                      <li>Clearance Certificate/IT Assessment</li>
-                      <li>Income Tax Returns</li>
-                    </ul>
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div class="accordion-item">
-              <h2 class="accordion-header" id="headingFive">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
-                  <span class="bullet"></span>
-                  <span class="title">Can I get tax benefits on personal loans?</span>
-                </button>
-              </h2>
-              <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#faq-accordion-1">
-                <div class="accordion-body">
-                  <p>Personal loans do not have any direct tax benefits. However, if you use the funds to renovate your house or to incur business expenses, you may get tax benefits under the Income Tax Act of India.</p>
-                </div>
-              </div>
-            </div>
-            <div class="accordion-item">
-              <h2 class="accordion-header" id="headingSix">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
-                  <span class="bullet"></span>
-                  <span class="title">Why is having a good credit score so important?</span>
-                </button>
-              </h2>
-              <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix" data-bs-parent="#faq-accordion-2">
-                <div class="accordion-body">
-                  <p>Your credit score represents your creditworthiness and repayment ability. Your chances of obtaining a loan with favourable terms and a low interest rate are very high if your credit score is high.</p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
+    </section>
     <section
-        class="section section-contact section-theme-1 pt-60 pt-md-60 pt-xl-100 pb-60 pb-xl-100 pb-md-600 contact-section"
+        class="section section-contact section-theme-1 pt-60 pt-md-60 py-xl-80 py-xxl-80 pb-60 pb-md-60 contact-section"
         id="contactus">
         <div class="container">
 
@@ -714,20 +801,19 @@ $this->load->view('includes/header');
             <div class="contact-form">
 
                 <div class="row justify-content-between">
-                    
-                    <div class="col-12 col-md-6 col-xl-6">
 
-                        <ul class="contact-support text-light">
+                    <div class="col-12 col-md-6 col-xl-5 form-right-main">
+
+                        <ul class="contact-support text-light h-100">
                             <div class="mb-20">
                                 <h6 class="mb-0">Get in touch</h6>
                                 <p class="text-light">Our team responds within 24 hours.</p>
                             </div>
                             <li>
-                                <div class="contact-box">
+                                <div class="contact-box ps-0">
                                     <div class="text-start mb-10">
-                                        <div class="icon">
-                                            <img src="<?php echo base_url('assets/images/icons/journey.png'); ?>"
-                                                alt="icon">
+                                        <div class="icon bg-success">
+                                            <i class="fas fa-map-marker-alt"></i>
                                         </div>
                                     </div>
                                     <div class="textbox ms-20">
@@ -738,76 +824,78 @@ $this->load->view('includes/header');
                                 </div>
                             </li>
                             <li>
-                                <div class="contact-box">
+                                <div class="contact-box ps-0">
                                     <div class="text-start mb-10">
-                                        <div class="icon">
-                                            <img src="<?php echo base_url('assets/images/icons/call.png'); ?>"
-                                                alt="icon">
+                                        <div class="icon bg-success">
+                                            <i class="fas fa-phone"></i>
                                         </div>
                                     </div>
                                     <div class="textbox ms-20">
                                         <h3 class="h4 text-uppercase text-light">Call Us</h3>
                                         <p>
-                                            <a href="tel:<?php echo COMPANY_MOBILE; ?>" class="text-light"><?php echo COMPANY_MOBILE; ?></a>
+                                            <a href="tel:<?php echo COMPANY_MOBILE; ?>"
+                                                class="text-light"><?php echo COMPANY_MOBILE; ?></a>
                                         </p>
                                     </div>
                                 </div>
                             </li>
                             <li>
-                                <div class="contact-box mb-0">
+                                <div class="contact-box mb-0 ps-0">
                                     <div class="text-start mb-10">
-                                        <div class="icon">
-                                            <img src="<?php echo base_url('assets/images/icons/envelope.png'); ?>"
-                                                alt="icon">
+                                        <div class="icon bg-success">
+                                            <i class="fas fa-envelope"></i>
                                         </div>
                                     </div>
                                     <div class="textbox ms-20">
                                         <h3 class="h4 text-uppercase text-light">Email</h3>
                                         <p>
-                                            <a
-                                                href="mailto:<?php echo COMPANY_EMAIL; ?>" class="text-light"><?php echo COMPANY_EMAIL; ?></a>
+                                            <a href="mailto:<?php echo COMPANY_EMAIL; ?>"
+                                                class="text-light"><?php echo COMPANY_EMAIL; ?></a>
                                         </p>
                                     </div>
                                 </div>
                             </li>
                         </ul>
                     </div>
-                    <div class="col-12 col-sm-10 col-md-6 m-auto mb-40 mb-md-0">
-                        <?php echo form_open('infopage/contactsubmission', array('id' => 'contactForm', 'class' => 'contac-form', 'novalidate' => 'novalidate')); ?>
-                        <div class="row">
-                            <div class="form-group col-6 mb-15 mb-md-20 mb-lg-25">
-                                <input class="form-control" type="text" name="fullname" placeholder="Your Name" required
-                                    data-validation-regex-regex="^[a-zA-Z ]*$">
-                                <div class="help-block font-small-3"></div>
+                    <div class="col-12 col-sm-10 col-md-6 col-xl-7 m-auto form-right-main">
+                        <div class="bg-white shadow  p-20 contact-form-right border form-right">
+                            <?php echo form_open('infopage/contactsubmission', array('id' => 'contactForm', 'class' => 'contac-form', 'novalidate' => 'novalidate')); ?>
+                            <div class="row">
+                                <div class="form-group col-md-6 col-12 mb-15 mb-md-20 mb-lg-25">
+                                    <input class="form-control" type="text" name="fullname" placeholder="Your Name"
+                                        required data-validation-regex-regex="^[a-zA-Z ]*$">
+                                    <div class="help-block font-small-3"></div>
+                                </div>
+                                <div class="form-group col-md-6 col-12 mb-15 mb-md-20 mb-lg-25">
+                                    <input class="form-control" type="text" name="mobile" placeholder="Your Mobile"
+                                        required minlength="10" maxlength="10" inputmode="numeric"
+                                        data-validation-regex-regex="^[6789]\d{9}$"
+                                        data-validation-regex-message="Enter valid mobile number">
+                                    <div class="help-block font-small-3"></div>
+                                </div>
+                                <div class="form-group col-md-6 col-12 mb-15 mb-md-20 mb-lg-25">
+                                    <input class="form-control" type="email" name="email" placeholder="Your Email Id"
+                                        required>
+                                    <div class="help-block font-small-3"></div>
+                                </div>
+                                <div class="form-group col-md-6 col-12 mb-15 mb-md-20 mb-lg-25">
+                                    <input class="form-control" type="text" name="subject" placeholder="Your Subject"
+                                        required>
+                                    <div class="help-block font-small-3"></div>
+                                </div>
+                                <div class="form-group col-md-12 col-12 mb-15 mb-md-20 mb-lg-25">
+                                    <textarea class="form-control" name="message" cols="30" rows="10"
+                                        placeholder="Your Message" required></textarea>
+                                    <div class="help-block font-small-3"></div>
+                                </div>
+                                <div class="col-12">
+                                    <button class="btn btn-green btn-sm w-100 text-uppercase"><span
+                                            class="btn-text">Submit</span></button>
+                                </div>
                             </div>
-                            <div class="form-group col-6 mb-15 mb-md-20 mb-lg-25">
-                                <input class="form-control" type="text" name="mobile" placeholder="Your Mobile" required
-                                    minlength="10" maxlength="10" inputmode="numeric"
-                                    data-validation-regex-regex="^[6789]\d{9}$"
-                                    data-validation-regex-message="Enter valid mobile number">
-                                <div class="help-block font-small-3"></div>
-                            </div>
-                            <div class="form-group col-6 mb-15 mb-md-20 mb-lg-25">
-                                <input class="form-control" type="email" name="email" placeholder="Your Email Id"
-                                    required>
-                                <div class="help-block font-small-3"></div>
-                            </div>
-                            <div class="form-group col-6 mb-15 mb-md-20 mb-lg-25">
-                                <input class="form-control" type="text" name="subject" placeholder="Your Subject"
-                                    required>
-                                <div class="help-block font-small-3"></div>
-                            </div>
-                            <div class="form-group col-12 mb-15 mb-md-20 mb-lg-25">
-                                <textarea class="form-control" name="message" cols="30" rows="10"
-                                    placeholder="Your Message" required></textarea>
-                                <div class="help-block font-small-3"></div>
-                            </div>
-                            <div class="col-12">
-                                <button class="btn btn-green btn-sm w-100 text-uppercase"><span
-                                        class="btn-text">Submit</span></button>
-                            </div>
+                            <?php echo form_close(); ?>
                         </div>
-                        <?php echo form_close(); ?>
+
                     </div>
                 </div>
             </div>

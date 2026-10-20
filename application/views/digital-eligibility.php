@@ -2,20 +2,20 @@
 $this->load->view('includes/header-offer.php');
 ?>
 
-<main class="main d-flex flex-column min-vh-100">
+<main class="main">
     <section class="section section-theme-1 packages-block pt-40 pb-80 bg-light">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-12 col-md-6 col-lg-8 mb-15 mb-md-30">
-                    <div class="block-holder form-condidates bg-white shadow">
+                    <div class="block-holder form-condidates bg-white shadow rounded-1 card-right">
                         <div class="d-flex">
-                         <div>   <div class="categories-image">
-                                <span class="icon">
-                                    <img src="<?php echo base_url('assets/images/icons/Salarised.png'); ?>" alt="image"
-                                        class="">
-                                </span>
+                            <div>
+                                <div class="categories-image">
+                                    <span class="icon">
+                                        <i class="fa fa-briefcase fs-5 text-white"></i>
+                                    </span>
+                                </div>
                             </div>
-</div>
                             <div class="subhead ms-15">
                                 <h5 class="mb-5 text-dark"><?php echo $userdetails['loanname']; ?></h5>
                                 <p class="mb-0">Get pre-approved offers instantly — just fill in your details.</p>
@@ -92,14 +92,14 @@ $this->load->view('includes/header-offer.php');
                             <div class="form-group col-12 col-lg-6 mb-15">
                                 <label class="text-uppercase h6 mb-10 text-gray-alt">City</label>
                                 <input type="text" name="city" id="city" class="form-control mb-2" placeholder="City*"
-                                    required readonly>
+                                    required>
                                 <div class="help-block font-small-3"></div>
                             </div>
 
                             <div class="form-group col-12 col-lg-6 mb-15">
                                 <label class="text-uppercase h6 mb-10 text-gray-alt">State</label>
                                 <input type="text" name="state" id="state" class="form-control mb-2"
-                                    placeholder="State*" required readonly>
+                                    placeholder="State*" required>
                                 <div class="help-block font-small-3"></div>
                             </div>
 
@@ -109,7 +109,7 @@ $this->load->view('includes/header-offer.php');
                                     <div class="card-body">
                                         <div class="row align-items-center">
                                             <div class="col-lg-7 col-md-12 col-sm-12 col-12">
-                                                <div class="d-flex align-items-center mb-md-10 mb-5">
+                                                <div class="d-flex align-items-center mb-lg-0 mb-5">
                                                     <i class="fa-solid fa-bullseye text-success"></i>
                                                     <div>
                                                         <p class="mb-0 fw-light ms-10 h6">Soft check only — won't impact
@@ -136,23 +136,22 @@ $this->load->view('includes/header-offer.php');
                     </div>
                 </div>
 
-                <div class="col-12 col-md-6 col-lg-4 mb-15 mb-md-30">
+                <div class="col-12 col-md-6 col-lg-4">
 
-                    <div class="card bg-white shadow border-0 p-25 mt-md-0 mt-5">
-                        <span class="text-uppercase fw-boldsub-title mb-5 d-block text-gray-alt">Desired Loan
-                            Amount</span>
-                        <div class="text-start mb-15 border-bottom pb-5">
-                            <h4 class="text-dark mb-5">₹<?php echo formatePriceIndia($userdetails['loanamount']); ?></h4>
-                            <p class="mb-0">Tenure: up to 60 months · ROI from 11%*</p>
-                        </div>
+                    <div class="mb-25">
+
+                        <img src="<?= base_url('assets/images/img/loan-amount.png') ?>" alt="" class="w-100">
+                    </div>
+                    <div class="card bg-white shadow border-0 p-25 mt-md-0 mt-5 rounded-1">
+
                         <p class="text-uppercase fw-bold">Customer details</p>
                         <div class="user-details-table mb-0">
                             <div class="d-flex mb-10">
                                 <div class="icon-col">
                                     <div class="m-auto">
                                         <div
-                                            class="d-flex align-items-center justify-content-center bg-light-gray image-wrap">
-                                            <i class="fa-regular fa-user"></i>
+                                            class="d-flex align-items-center justify-content-center bg-light-purple image-wrap">
+                                            <i class="fa-regular fa-user text-purple"></i>
                                         </div>
                                     </div>
                                 </div>
@@ -165,8 +164,8 @@ $this->load->view('includes/header-offer.php');
                                 <div class="icon-col">
                                     <div class="m-auto">
                                         <div
-                                            class="d-flex align-items-center justify-content-center bg-light-gray image-wrap">
-                                            <i class="fa-solid fa-phone"></i>
+                                            class="d-flex align-items-center justify-content-center bg-light-purple image-wrap">
+                                            <i class="fa-solid fa-phone text-purple"></i>
                                         </div>
                                     </div>
                                 </div>
@@ -179,8 +178,8 @@ $this->load->view('includes/header-offer.php');
                                 <div class="icon-col">
                                     <div class="m-auto">
                                         <div
-                                            class="d-flex align-items-center justify-content-center bg-light-gray image-wrap">
-                                            <span class="flaticon-user lh-1"></span>
+                                            class="d-flex align-items-center justify-content-center bg-light-purple image-wrap">
+                                            <span class="flaticon-user lh-1 text-purple"></span>
                                         </div>
                                     </div>
                                 </div>
@@ -193,8 +192,8 @@ $this->load->view('includes/header-offer.php');
                                 <div class="icon-col">
                                     <div class="m-auto">
                                         <div
-                                            class="d-flex align-items-center justify-content-center bg-light-gray image-wrap">
-                                            <i class="fa-regular fa-envelope"></i>
+                                            class="d-flex align-items-center justify-content-center bg-light-purple image-wrap">
+                                            <i class="fa-regular fa-envelope text-purple"></i>
                                         </div>
                                     </div>
                                 </div>
@@ -207,8 +206,8 @@ $this->load->view('includes/header-offer.php');
                                 <div class="icon-col">
                                     <div class="fbox-ico ico-16 m-auto">
                                         <div
-                                            class="d-flex align-items-center justify-content-center bg-light-gray image-wrap">
-                                            <i class="fa-regular fa-file"></i>
+                                            class="d-flex align-items-center justify-content-center bg-light-purple image-wrap">
+                                            <i class="fa-regular fa-file text-purple"></i>
                                         </div>
                                     </div>
                                 </div>
@@ -219,7 +218,7 @@ $this->load->view('includes/header-offer.php');
                             </div>
 
                         </div>
-                        <div class="otp-velidation-text-wrap border border-success bg-light p-10">
+                        <div class="otp-velidation-text-wrap border bg-light-gray p-10">
 
                             <div class="d-flex align-items-start">
 

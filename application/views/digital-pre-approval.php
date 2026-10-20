@@ -15,16 +15,16 @@ $eligibilityamtindia = formatePriceIndia($eligibilityamt);
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-12 col-md-6 col-lg-8 mb-15 mb-md-30">
-                    <div class="block-holder form-condidates bg-white shadow">
+                    <div class="block-holder form-condidates bg-white shadow rounded-1 card-right">
                         <div class="d-flex">
-                          <div>
-                              <div class="categories-image">
-                                <span class="icon">
-                                    <img src="<?php echo base_url('assets/images/icons/Salarised.png'); ?>" alt="image"
-                                        class="">
-                                </span>
+                            <div>
+                                <div class="categories-image">
+                                    <span class="icon">
+                                        <img src="<?php echo base_url('assets/images/icons/Salarised.png'); ?>"
+                                            alt="image" class="">
+                                    </span>
+                                </div>
                             </div>
-</div>
                             <div class="subhead ms-15">
                                 <h5 class="mb-5 text-dark"><?php echo $userdetails['loanname']; ?></h5>
                                 <!-- <p class="mb-0">Pre-Approved Offer : Congratulations! You're Eligible For <strong
@@ -196,21 +196,19 @@ $eligibilityamtindia = formatePriceIndia($eligibilityamt);
                 </div>
 
                 <div class="col-12 col-md-6 col-lg-4 mb-15 mb-md-30">
-                    <div class="card bg-white shadow border-0 p-25 mt-md-0 mt-5">
-                        <span class="text-uppercase fw-boldsub-title mb-5 d-block text-gray-alt">Desired Loan
-                            Amount</span>
-                        <div class="text-start mb-15 border-bottom pb-5">
-                            <h4 class="text-dark mb-5">₹<?php echo number_format($userdetails['loanamount'], 2); ?></h4>
-                            <p class="mb-0">Tenure: up to 60 months · ROI from 11%*</p>
-                        </div>
+                    <div class="mb-25">
+                        <img src="<?= base_url('assets/images/img/preapproval-img.png') ?>" alt="" class="w-100">
+                    </div>
+                  <div class="card bg-white shadow border-0 p-25 mt-md-0 mt-5 rounded-1">
+
                         <p class="text-uppercase fw-bold">Customer details</p>
                         <div class="user-details-table mb-0">
                             <div class="d-flex mb-10">
                                 <div class="icon-col">
                                     <div class="m-auto">
                                         <div
-                                            class="d-flex align-items-center justify-content-center bg-light-gray image-wrap">
-                                            <i class="fa-regular fa-user"></i>
+                                            class="d-flex align-items-center justify-content-center bg-light-purple image-wrap">
+                                            <i class="fa-regular fa-user text-purple"></i>
                                         </div>
                                     </div>
                                 </div>
@@ -223,8 +221,8 @@ $eligibilityamtindia = formatePriceIndia($eligibilityamt);
                                 <div class="icon-col">
                                     <div class="m-auto">
                                         <div
-                                            class="d-flex align-items-center justify-content-center bg-light-gray image-wrap">
-                                            <i class="fa-solid fa-phone"></i>
+                                            class="d-flex align-items-center justify-content-center bg-light-purple image-wrap">
+                                            <i class="fa-solid fa-phone text-purple"></i>
                                         </div>
                                     </div>
                                 </div>
@@ -237,8 +235,8 @@ $eligibilityamtindia = formatePriceIndia($eligibilityamt);
                                 <div class="icon-col">
                                     <div class="m-auto">
                                         <div
-                                            class="d-flex align-items-center justify-content-center bg-light-gray image-wrap">
-                                            <span class="flaticon-user lh-1"></span>
+                                            class="d-flex align-items-center justify-content-center bg-light-purple image-wrap">
+                                            <span class="flaticon-user lh-1 text-purple"></span>
                                         </div>
                                     </div>
                                 </div>
@@ -251,8 +249,8 @@ $eligibilityamtindia = formatePriceIndia($eligibilityamt);
                                 <div class="icon-col">
                                     <div class="m-auto">
                                         <div
-                                            class="d-flex align-items-center justify-content-center bg-light-gray image-wrap">
-                                            <i class="fa-regular fa-envelope"></i>
+                                            class="d-flex align-items-center justify-content-center bg-light-purple image-wrap">
+                                            <i class="fa-regular fa-envelope text-purple"></i>
                                         </div>
                                     </div>
                                 </div>
@@ -265,8 +263,8 @@ $eligibilityamtindia = formatePriceIndia($eligibilityamt);
                                 <div class="icon-col">
                                     <div class="fbox-ico ico-16 m-auto">
                                         <div
-                                            class="d-flex align-items-center justify-content-center bg-light-gray image-wrap">
-                                            <i class="fa-regular fa-file"></i>
+                                            class="d-flex align-items-center justify-content-center bg-light-purple image-wrap">
+                                            <i class="fa-regular fa-file text-purple"></i>
                                         </div>
                                     </div>
                                 </div>
@@ -277,14 +275,14 @@ $eligibilityamtindia = formatePriceIndia($eligibilityamt);
                             </div>
 
                         </div>
-                        <div class="otp-velidation-text-wrap border border-success bg-light p-10">
+                        <div class="otp-velidation-text-wrap border bg-light-gray p-10">
 
                             <div class="d-flex align-items-start">
 
                                 <div>
                                     <i class="fa-solid fa-shield text-success"></i>
                                 </div>
-                                <p class="mb-0 ms-10 mt-0 fw-normal">Your data is
+                                <p class="mb-0 ms-10 mt-0 h6 fw-normal">Your data is
                                     256-bit encrypted and never
                                     shared
                                     without your consent.</p>
@@ -296,7 +294,7 @@ $eligibilityamtindia = formatePriceIndia($eligibilityamt);
             </div>
         </div>
     </section>
-
+<!-- 
     <section
         class="section section-theme-10 latest-candidates-block pt-30 pt-md-40 pt-lg-50 pt-xxl-50 pb-30 pb-md-50 pb-lg-60 pb-xxl-60">
         <div class="container">
@@ -318,10 +316,13 @@ $eligibilityamtindia = formatePriceIndia($eligibilityamt);
                     <div>
                         <h6 class="mt-20"><?php echo $row->bank_name; ?></h6>
                         <hr>
-                        <p class="" style="margin-bottom: 0.2rem;">Rs. <?php echo formatePriceIndia($eligibilityamt); ?></p>
-                        <p class="" style="margin-bottom: 0.2rem;">EMI : Rs. <?php echo calPMT($row->roi, $row->termsyears, $eligibilityamt); ?></p>
+                        <p class="" style="margin-bottom: 0.2rem;">Rs. <?php echo formatePriceIndia($eligibilityamt); ?>
+                        </p>
+                        <p class="" style="margin-bottom: 0.2rem;">EMI : Rs.
+                            <?php echo calPMT($row->roi, $row->termsyears, $eligibilityamt); ?></p>
                         <p class="" style="margin-bottom: 0.2rem;">ROI : <?php echo $row->roi."%"; ?></p>
-                        <p class="" style="margin-bottom: 0.2rem;">Terms : <?php echo $row->termsmonths." months"; ?></p>
+                        <p class="" style="margin-bottom: 0.2rem;">Terms : <?php echo $row->termsmonths." months"; ?>
+                        </p>
                     </div>
                 </div>
                 <?php
@@ -337,7 +338,7 @@ $eligibilityamtindia = formatePriceIndia($eligibilityamt);
             </div>
         </div>
 
-    </section>
+    </section> -->
     <div class="modal fade auto-off" id="modal" role="modal" aria-labelledby="modal-label" aria-hidden="true"
         style="display: none;">
         <div class="modal-dialog modal-lg">

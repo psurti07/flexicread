@@ -13,11 +13,11 @@ $eligibilityamtindia = formatePriceIndia($eligibilityamt);
 <main class="main">
     <section class="section section-theme-1 packages-block pt-40 bg-light section-theme-12">
         <div class="container">
-            <div class="loan-offer-card how-we-help-block">
-                <div class="row align-items-center mb-30">
-                    <div class="col-12 col-md-8 col-lg-8">
+            <div class=" how-we-help-block">
+                <div class="row mb-30">
+                    <div class="col-12 col-md-8 col-lg-10 card-left">
 
-                        <div class="subhead mb-0 p-30">
+                        <div class="subhead mb-0 p-35 loan-offer-card">
 
                             <h5 class="mb-10 text-white"><?php echo $userdetails['loanname']; ?></h5>
                             <p class="text-white">Your <strong class="text-success">Rs.
@@ -31,17 +31,26 @@ $eligibilityamtindia = formatePriceIndia($eligibilityamt);
 
 
                     </div>
-                    <div class="col-12 col-md-4 col-lg-4">
-                        <img src="<?php echo base_url('assets/images/img/subscriber.png'); ?>" alt="image" class="">
+                    <div class="col-12 col-md-4 col-lg-2 card-left">
+
+
+                        <img src="<?= base_url('assets/images/img/valid-img.png') ?>" alt="Valid loan offer"
+                            class="desktop-image d-md-block d-none w-100 img-fluid">
+
+                        <img src="<?= base_url('assets/images/img/mobile-img.jpeg') ?>" alt="Valid loan offer"
+                            class="mobile-image d-md-none d-block w-100 img-fluid">
+
+
                     </div>
+
                 </div>
             </div>
             <div class="row">
                 <div class="col-12 col-md-12 col-lg-8 mb-15 mb-md-30">
-                    <div class="block-holder form-condidates bg-white shadow p-0 border">
+                    <div class="block-holder form-condidates bg-white shadow rounded-1 p-0 overflow-hidden card-right">
                         <div class="row">
-                            <div class="col-12 col-md-6 col-lg-6 p-0">
-                                <div class="subscription-card bg-transparent">
+                            <div class="col-12 col-md-6 col-lg-6 subscription-plan-card">
+                                <div class="subscription-card">
                                     <?php echo form_open('onlineprocess/checkoutDigital', array('id' => 'submitForm3', 'class' => '', 'novalidate' => 'novalidate')); ?>
                                     <input type="hidden" name="loantype" id="loantype"
                                         value="<?php echo $userdetails['loantype']; ?>" class="form-control" required>
@@ -197,27 +206,25 @@ $eligibilityamtindia = formatePriceIndia($eligibilityamt);
                     </div>
                 </div>
                 <div class="col-12 col-md-12 col-lg-4 mb-15 mb-md-30">
-                    <div class="block-holder form-condidates bg-white shadow p-30 border">
-                        <span class="text-uppercase fw-normal sub-title mb-5 d-block text-gray-alt h6">Desired
-                            Loan
-                            Amount</span>
-                        <div class="text-start mb-15 border-bottom pb-5">
-                            <h4 class="text-dark mb-5">₹<?php echo number_format($userdetails['loanamount'], 2); ?></h4>
-                            <p class="mb-0 h6 fw-normal">Tenure: up to 60 months · ROI from 11%*</p>
-                        </div>
+                    <div class="mb-25">
+
+                        <img src="<?= base_url('assets/images/img/loan-amount.png') ?>" alt="" class="w-100">
+                    </div>
+                    <div class="card bg-white shadow border-0 p-25 mt-md-0 mt-5 rounded-1">
+
                         <p class="text-uppercase fw-bold">Customer details</p>
                         <div class="user-details-table mb-0">
                             <div class="d-flex mb-10">
                                 <div class="icon-col">
                                     <div class="m-auto">
                                         <div
-                                            class="d-flex align-items-center justify-content-center bg-light-gray image-wrap">
-                                            <i class="fa-regular fa-user"></i>
+                                            class="d-flex align-items-center justify-content-center bg-light-purple image-wrap">
+                                            <i class="fa-regular fa-user text-purple"></i>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="ms-10">
-                                    <small class="text-uppercase d-block h6 fw-normal">Name</small>
+                                    <small class="text-uppercase d-block s-12">Name</small>
                                     <p class="h6"><?php echo $userdetails['fullname']; ?></p>
                                 </div>
                             </div>
@@ -225,13 +232,13 @@ $eligibilityamtindia = formatePriceIndia($eligibilityamt);
                                 <div class="icon-col">
                                     <div class="m-auto">
                                         <div
-                                            class="d-flex align-items-center justify-content-center bg-light-gray image-wrap">
-                                            <i class="fa-solid fa-phone"></i>
+                                            class="d-flex align-items-center justify-content-center bg-light-purple image-wrap">
+                                            <i class="fa-solid fa-phone text-purple"></i>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="ms-10">
-                                    <small class="text-uppercase d-block h6 fw-normal">Mobile :</small>
+                                    <small class="text-uppercase d-block s-12">Mobile :</small>
                                     <p class="h6"><?php echo $userdetails['mobile']; ?></p>
                                 </div>
                             </div>
@@ -239,13 +246,13 @@ $eligibilityamtindia = formatePriceIndia($eligibilityamt);
                                 <div class="icon-col">
                                     <div class="m-auto">
                                         <div
-                                            class="d-flex align-items-center justify-content-center bg-light-gray image-wrap">
-                                            <i class="fa-regular fa-envelope"></i>
+                                            class="d-flex align-items-center justify-content-center bg-light-purple image-wrap">
+                                            <span class="flaticon-user lh-1 text-purple"></span>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="ms-10">
-                                    <small class="text-uppercase d-block h6 fw-normal">Loan Amount :</small>
+                                    <small class="text-uppercase d-block s-12">Loan Amount :</small>
                                     <p class="h6"><?php echo formatePriceIndia($userdetails['loanamount']); ?></p>
                                 </div>
                             </div> -->
@@ -253,13 +260,13 @@ $eligibilityamtindia = formatePriceIndia($eligibilityamt);
                                 <div class="icon-col">
                                     <div class="m-auto">
                                         <div
-                                            class="d-flex align-items-center justify-content-center bg-light-gray image-wrap">
-                                            <i class="fa-regular fa-envelope"></i>
+                                            class="d-flex align-items-center justify-content-center bg-light-purple image-wrap">
+                                            <i class="fa-regular fa-envelope text-purple"></i>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="ms-10">
-                                    <small class="text-uppercase d-block h6 fw-normal">Email</small>
+                                    <small class="text-uppercase d-block s-12">Email</small>
                                     <p class="h6"><?php echo $userdetails['email']; ?></p>
                                 </div>
                             </div>
@@ -267,19 +274,19 @@ $eligibilityamtindia = formatePriceIndia($eligibilityamt);
                                 <div class="icon-col">
                                     <div class="fbox-ico ico-16 m-auto">
                                         <div
-                                            class="d-flex align-items-center justify-content-center bg-light-gray image-wrap">
-                                            <i class="fa-regular fa-file"></i>
+                                            class="d-flex align-items-center justify-content-center bg-light-purple image-wrap">
+                                            <i class="fa-regular fa-file text-purple"></i>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="ms-10">
-                                    <small class="text-uppercase d-block h6 fw-normal">Loan Type</small>
+                                    <small class="text-uppercase d-block s-12">Loan Type</small>
                                     <p class="h6">Personal Loan</p>
                                 </div>
                             </div>
 
                         </div>
-                        <div class="otp-velidation-text-wrap border border-success bg-light p-10">
+                        <div class="otp-velidation-text-wrap border bg-light-gray p-10">
 
                             <div class="d-flex align-items-start">
 
@@ -296,7 +303,7 @@ $eligibilityamtindia = formatePriceIndia($eligibilityamt);
                     </div>
                 </div>
     </section>
-    <section class="pb-4">
+    <!-- <section class="pt-40 pb-0">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 offset-lg-4 d-block d-sm-none d-md-none d-lg-none">
@@ -318,7 +325,7 @@ $eligibilityamtindia = formatePriceIndia($eligibilityamt);
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
     <!--<section class="section section-theme-10 latest-candidates-block bg-light-sky pt-30 pt-md-40 pt-lg-50 pt-xxl-50 pb-30 pb-md-50 pb-lg-60 pb-xxl-60">
     <div class="container">
       <div class="row mb-30 mb-md-40">
