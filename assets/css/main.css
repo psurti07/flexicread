@@ -31748,7 +31748,7 @@ textarea.form-control.form-control-lg {
 }
 
 .client_testimonials .slick-slide {
-  padding: 0px;
+     padding: 0 10px;
   transition: all 0.4s ease;
 }
 
