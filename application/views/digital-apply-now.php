@@ -8,7 +8,7 @@ $this->load->view('includes/header-apply.php');
             <div class="col-12 col-md-6 col-lg-6 col-xl-6 order-2">
 
                 <div class="visual-textbox pt-0">
-                    <h2 class="text-light">Personal loans upto ₹1,00,000 </h2>
+                    <h2 class="text-light">Personal loans upto ₹ 10,00,000</h2>
                 </div>
                 <div class="banner__img-two text-center">
                     <img src="<?= base_url('assets/images/image_30.png'); ?>" alt="" class="img-fluid">
@@ -20,16 +20,11 @@ $this->load->view('includes/header-apply.php');
                     <div class="account-box-frame text-dark bg-white shadow">
                         <div class="section-header text-start mb-0">
 
-                            <h5 class="text-black">Explore Personal Loan Options up to <div class="range"
-                                    style="display: inline-block;">
-                                    <div class="">
-                                        <span class="text-success fs-5">₹10 Lakhs</span>
-                                    </div>
-                                </div>
+                            <h5 class="text-black">Start Your Personal Loan Application
+                                
                             </h5>
-                            <p class="text-start display-6">
-                                Experience a seamless loan application process with instant approvals, minimal
-                                paperwork, and competitive rates.
+                            <p class="text-start"><small>
+                                Share your basic details to receive guidance on documents and the application process. Loan amount, eligibility, terms and final decision are determined by the respective NBFC.</small>
                             </p>
 
                         </div>
@@ -43,13 +38,13 @@ $this->load->view('includes/header-apply.php');
                                         </div>
                                         <div class="d-flex justify-content-between required-amount mt-10">
                                             <h6 class="text-uppercase mb-0">Enter Required Amount</h6>
-                                            <h6 class="text-uppercase mb-0">₹1L – ₹10L</h6>
+                                            <h6 class="text-uppercase mb-0">₹10k – ₹10L</h6>
                                         </div>
                                         <div class="range__slider">
                                             <input type="range" name="loanamount" step="10000">
                                         </div>
                                         <div class="d-flex justify-content-between required-price mb-10">
-                                            <h6 class="text-uppercase mb-0">₹1,00,000</h6>
+                                            <h6 class="text-uppercase mb-0">₹10,000</h6>
                                             <h6 class="text-uppercase mb-0">₹10,00,000</h6>
                                         </div>
                                     </div>
@@ -84,17 +79,13 @@ $this->load->view('includes/header-apply.php');
                                 <div class="d-flex align-items-start "> <input type="checkbox" name="tandc" id="tandc"
                                         class="custom-control-input mb-0 mt-5" value="1" checked required>
                                     <label class="custom-control-label" for="tandc"><small
-                                            class="ms-10 d-block h6 fw-normal">By
-                                            submitting the
-                                            form and proceeding, you agree to the <a
+                                            class="ms-10 d-block h6 fw-normal">By proceeding, I agree to FlexiCred’s <a
                                                 href="<?= base_url('terms-conditions') ?>" target="_blank"
                                                 style="text-decoration: none;" class="text-dark">Terms of
                                                 Use</a>
                                             and <a href="<?= base_url('privacy-policy') ?>" target="_blank"
                                                 style="text-decoration: none;" class="text-dark">Privacy
-                                                Policy</a>
-                                            of
-                                            Flexicread.</small></label>
+                                                Policy</a></small></label>
 
                                 </div>
                                 <div class="help-block ms-0 ps-0 mb-2"></div>
@@ -107,12 +98,7 @@ $this->load->view('includes/header-apply.php');
                                         class="custom-control-input mb-0 mt-5" value="1" checked required>
                                     <label class="custom-control-label" for="promotion"><small
                                             class="ms-10 d-block h6 fw-normal">
-                                            I
-                                            agree to receive
-                                            promotional & informational communications from Flexicread
-                                            through
-                                            Emails, calls or SMS
-                                            Services.
+                                            I would like to receive updates from FlexiCred by email, call or SMS. I can opt out anytime.
                                         </small></label>
                                 </div>
                                 <div class="help-block ms-0 ps-0 mb-2"></div>
@@ -144,7 +130,7 @@ $this->load->view('includes/header-apply.php');
                                         </div>
                                         <div class="col-lg-8 col-md-8 col-6">
                                             <div>
-                                                <p class="mb-0 fa-xs">5,000+ happy clients</p>
+                                                <p class="mb-0 fa-xs">10k+ Happy Clients</p>
                                             </div>
                                         </div>
                                     </div>
@@ -381,15 +367,12 @@ $this->load->view('includes/header-apply.php');
             <div class="left_align">
                 <div class="detail_box candidate flex-column">
 
-                    <h5 class="text-light">Salaried Employees</h5>
+                    <h5 class="text-light">Salaried Applicants</h5>
                     <ul class="list-unstyled list text-light my-0">
-                        <li><img src="<?= base_url('assets/img/icons/check.svg') ?>" alt=""> Minimum Age - 21
-                            Years
+                        <li><img src="<?= base_url('assets/img/icons/check.svg') ?>" alt=""> Minimum age  21 years
                         </li>
-                        <li><img src="<?= base_url('assets/img/icons/check.svg') ?>" alt=""> Minimum Salary -
-                            Rs. 15,000/month</li>
-                        <li class="mb-0"><img src="<?= base_url('assets/img/icons/check.svg') ?>" alt=""> 1 Year Job
-                            Stability</li>
+                        <li><img src="<?= base_url('assets/img/icons/check.svg') ?>" alt=""> Monthly salary  ₹15,000 or more</li>
+                        <li class="mb-0"><img src="<?= base_url('assets/img/icons/check.svg') ?>" alt=""> Employment history  At least 1 year</li>
                     </ul>
 
 
@@ -397,19 +380,12 @@ $this->load->view('includes/header-apply.php');
             </div>
             <div class="right_align">
                 <div class="detail_box candidate flex-column ">
-
-                    <h5 class="text-light">Self-employed Individuals</h5>
+                    <h5 class="text-light">Self-Employed Applicants</h5>
                     <ul class="list-unstyled list text-light my-0">
-                        <li><img src="<?= base_url('assets/img/icons/check.svg') ?>" alt=""> Minimum Age - 21
-                            Years</li>
-                        <li><img src="<?= base_url('assets/img/icons/check.svg') ?>" alt=""> Income Tax Return
-                            of Minimum 1 Year</li>
-                        <li class="mb-0"><img src="<?= base_url('assets/img/icons/check.svg') ?>" alt=""> 1 Year
-                            Business
-                            Stability</li>
+                        <li><img src="<?= base_url('assets/img/icons/check.svg') ?>" alt=""> Minimum age  21 years</li>
+                        <li><img src="<?= base_url('assets/img/icons/check.svg') ?>" alt=""> Business history  At least 1 year</li>
+                        <li class="mb-0"><img src="<?= base_url('assets/img/icons/check.svg') ?>" alt=""> Income tax returns  At least 1 year</li>
                     </ul>
-
-
                 </div>
             </div>
         </div>
@@ -419,9 +395,8 @@ $this->load->view('includes/header-apply.php');
     <div class="container">
         <div class="row align-items-center">
             <div class="col-12 col-md-12 col-lg-4 txt-col mb-20">
-                <h2 class="mb-15">Why Thousands <br> Trust <span class="text-success"> FlexiCread </span></h2>
-                <p>Whether it's an emergency expense, business opportunity, medical need, travel plan, or lifestyle
-                    upgrade Rupee Raftaar makes borrowing fast, simple, and stress-free.</p>
+                <h2 class="mb-15">Why Choose <br> <span class="text-success"> FlexiCread </span></h2>
+                <p>FlexiCred provides clear support for loan applications, including documents, process steps and NBFC requirements.</p>
                 <img src="<?= base_url('assets/images/img/trust-img.png') ?>" alt="">
 
             </div>
@@ -430,32 +405,29 @@ $this->load->view('includes/header-apply.php');
                     <div class="column">
 
                         <div class="text-start">
-                            <h5 class="fs-6">Instant Approvals</h5>
-                            <p class="mt-10">Get your loan approved in just 5 minutes with our AI-powered verification
-                                system</p>
+                            <h5 class="fs-6">Application Guidance</h5>
+                            <p class="mt-10">Understand the application steps and required documents before you proceed.</p>
                         </div>
                     </div>
                     <div class="column">
 
                         <div class="text-start">
-                            <h5 class="fs-6">100% Secure</h5>
-                            <p class="mt-10">Bank-grade encryption and RBI-compliant processes ensure your data is
-                                always safe</p>
+                            <h5 class="fs-6">Secure Information Handling</h5>
+                            <p class="mt-10">We follow responsible practices for handling application information. Please review our Privacy Policy for details.</p>
                         </div>
                     </div>
                     <div class="column">
 
                         <div class="text-start">
-                            <h5 class="fs-6">Flexible Repayment</h5>
-                            <p class="mt-10">Choose EMI plans that fit your budget. No hidden charges, complete
-                                transparency</p>
+                            <h5 class="fs-6">Clear Repayment Information</h5>
+                            <p class="mt-10">Repayment terms, EMIs and applicable charges are shared by the NBFC as per the selected loan product.</p>
                         </div>
                     </div>
                     <div class="column">
 
                         <div class="text-start">
-                            <h5 class="fs-6">24/7 Availability</h5>
-                            <p class="mt-10">Apply anytime, anywhere. Our platform is always ready to serve you</p>
+                            <h5 class="fs-6">Online Application Support</h5>
+                            <p class="mt-10">Access application guidance and support through our digital platform.</p>
                         </div>
                     </div>
                 </div>
@@ -466,27 +438,27 @@ $this->load->view('includes/header-apply.php');
 
 <section class="section section-contact section-theme-1 bg-light-gray">
     <div class="container">
-        <p class="mb-0"><strong>Disclaimer: </strong>Akshar Finance Solutions LLP is not a lender or financial
+        <p class="mb-0"><small><strong>Disclaimer: </strong><?php echo COMPANY_NAME ?> is not a lender or financial
             institution. We do not provide loans or make credit decisions. All loan approvals, interest rates, fees, and
             disbursal are handled by third-party lenders/NBFCs. We do not guarantee loan approval, disbursal, or
             specific loan terms. The amount paid is only for the service charge. We are not lenders and do not guarantee
-            any loan approval. Loan approval, disbursement/sanction is entirely dependent on NBFC criteria.</p>
+            any loan approval. Loan approval, disbursement/sanction is entirely dependent on NBFC criteria.</small></p>
 
-        <p class="mb-0"><strong>Important Note: </strong>We ask our customers to make payments ONLY on our website <a
+        <p class="mb-0"><small><strong>Important Note: </strong>We ask our customers to make payments ONLY on our website <a
                 class="text-dark" href="<?php echo COMPANY_SITE; ?>">Flexicread.com</a> and NOT through any other
-            source, directly or indirectly.</p>
+            source, directly or indirectly.</small></p>
 
-        <p class="mb-0"><strong>Pre-application NOTE: </strong>Users are advised to read our terms and conditions and
-            policies before proceeding/applying/registration.
+        <p class="mb-0"><small><strong>Pre-application NOTE: </strong>Users are advised to read our terms and conditions and
+            policies before proceeding/applying/registration.</small>
         </p>
-        <p class="mb-0"><strong>Disclosure:</strong> Loan tenure minimum 6 months & maximum 60 months; Maximum APR: 34%
+        <p class="mb-0"><small><strong>Disclosure:</strong> Loan tenure minimum 6 months & maximum 60 months; Maximum APR: 34%
             p.a.; processing fee: up to 2%. Representative example: ₹1,00,000 at 11.5% for 60 months with ₹2,000
-            processing fee — EMI ₹2,301, total interest ₹38,059, total repayment ₹1,38,059, indicative APR 14.41%.</p>
+            processing fee — EMI ₹2,301, total interest ₹38,059, total repayment ₹1,38,059, indicative APR 14.41%.</small></p>
 
-        <p class="mb-0"><strong>Registered Office Address : </strong><?php echo COMPANY_ADDRESS; ?></p>
+        <p class="mb-0"><small><strong>Registered Office Address : </strong><?php echo COMPANY_ADDRESS; ?></small></p>
 
-        <p class="mb-0"><strong>Mobile : </strong><?php echo COMPANY_MOBILE; ?> | <strong>Email :
-            </strong><?php echo COMPANY_EMAIL; ?></p>
+        <p class="mb-0"><small><strong>Mobile : </strong><?php echo COMPANY_MOBILE; ?> | <strong>Email :
+            </strong><?php echo COMPANY_EMAIL; ?></small></p>
 
     </div>
 </section>

@@ -10,12 +10,7 @@
 
 	                        <div class="footer-info">
 	                            <div class="form-subscribe mb-20">
-	                                <p>At flexicread, we understand the
-	                                    importance of your finances. Our
-	                                    advisors provide reliable financial
-	                                    services focused on transparency,
-	                                    ensuring everyone can plan a stronger
-	                                    tomorrow.</p>
+	                                <p>At FlexiCred, we make loan application support easier to understand. Our team provides clear guidance on documents, process steps and lender requirements, helping customers make informed decisions with confidence.</p>
 	                            </div>
 
 	                            <ul class="social-networks no-bg d-flex flex-wrap">
