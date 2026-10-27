@@ -50,42 +50,48 @@ Class Infopage extends CI_Controller {
 		$bllist = $this->Site_Info_Model->getsitefaqs(2);
 		$cplist = $this->Site_Info_Model->getsitefaqs(3);
 		$sclist = $this->Site_Info_Model->getsitefaqs(4);
-		$this->load->view('faqs',['meta'=>$meta, 'pllist'=>$pllist, 'bllist'=>$bllist, 'cplist'=>$cplist, 'sclist'=>$sclist]);
+		$banklist = $this->Site_Info_Model->getbanklist(8);
+		$this->load->view('faqs',['meta'=>$meta, 'pllist'=>$pllist, 'bllist'=>$bllist, 'cplist'=>$cplist, 'sclist'=>$sclist, 'banklist'=>$banklist]);
 	}
 
 	public function important_update(){
 		$this->load->model('Site_Info_Model');
 		$meta = $this->Site_Info_Model->getmetakeywords('home');
 		$noteslist = $this->Site_Info_Model->getimpnoteslist();
-		$this->load->view('important-update',['meta'=>$meta, 'noteslist'=>$noteslist]);
+		$banklist = $this->Site_Info_Model->getbanklist(8);
+		$this->load->view('important-update',['meta'=>$meta, 'noteslist'=>$noteslist, 'banklist'=>$banklist]);
 	}
 
 	public function privacy_policy(){
 		$this->load->model('Site_Info_Model');
 		$meta = $this->Site_Info_Model->getmetakeywords('privacy-policy');
 		$contentdetails = $this->Site_Info_Model->getpagedetails('privacy-policy');
-		$this->load->view('privacy-policy',['meta'=>$meta, 'contentdetails'=>$contentdetails]);
+		$banklist = $this->Site_Info_Model->getbanklist(8);
+		$this->load->view('privacy-policy',['meta'=>$meta, 'contentdetails'=>$contentdetails, 'banklist'=>$banklist]);
 	}
 
 	public function refund_policy(){
 		$this->load->model('Site_Info_Model');
 		$meta = $this->Site_Info_Model->getmetakeywords('refund-policy');
 		$contentdetails = $this->Site_Info_Model->getpagedetails('refund-policy');
-		$this->load->view('refund-policy',['meta'=>$meta, 'contentdetails'=>$contentdetails]);
+		$banklist = $this->Site_Info_Model->getbanklist(8);
+		$this->load->view('refund-policy',['meta'=>$meta, 'contentdetails'=>$contentdetails, 'banklist'=>$banklist]);
 	}
 
 	public function disclaimer(){
 		$this->load->model('Site_Info_Model');
 		$meta = $this->Site_Info_Model->getmetakeywords('disclaimer');
 		$contentdetails = $this->Site_Info_Model->getpagedetails('disclaimer');
-		$this->load->view('disclaimer',['meta'=>$meta, 'contentdetails'=>$contentdetails]);
+		$banklist = $this->Site_Info_Model->getbanklist(8);
+		$this->load->view('disclaimer',['meta'=>$meta, 'contentdetails'=>$contentdetails, 'banklist'=>$banklist]);
 	}
 
 	public function terms_conditions(){
 		$this->load->model('Site_Info_Model');
 		$meta = $this->Site_Info_Model->getmetakeywords('terms');
 		$contentdetails = $this->Site_Info_Model->getpagedetails('terms-conditions');
-		$this->load->view('terms-conditions',['meta'=>$meta, 'contentdetails'=>$contentdetails]);
+		$banklist = $this->Site_Info_Model->getbanklist(8);
+		$this->load->view('terms-conditions',['meta'=>$meta, 'contentdetails'=>$contentdetails, 'banklist'=>$banklist]);
 	}
 
 	public function sitemap(){

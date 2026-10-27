@@ -97,7 +97,7 @@ define('COMPANY_CIN', 'ACP-2746');
 define('COMPANY_GST', '24ACKFA3022A1Z8');
 define('COMPANY_SITE', 'https://flexicread.com');
 define('PARTNER_SITE', 'https://site.flexicread.com');
-define('COMPANY_ADDRESS', '1st Flr, Plot 29, Parvati Nagar CHS2, Katargam Road, Katargam, Surat, Gujarat - 395004');
+define('COMPANY_ADDRESS', 'Flat No.32, Akshardeep Society, Singanore Char Rasta, Singanpore, Surat, Guajarat,395004');
 define('COMPANY_TIMING', '10 AM to 5 PM (Monday to Saturday)');
 
 define('SECURE_SALT', 'verloopweb');

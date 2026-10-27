@@ -115,7 +115,7 @@ $this->load->view('includes/header');
                                                                     data-purecounter-once="true"
                                                                     class="purecounter">₹12</span>Cr+
                                                             </strong>
-                                                            <span class="subtext text-light">Loans Disbursed</span>
+                                                            <span class="subtext text-light">Applications Assisted</span>
                                                         </div>
                                                     </div>
                                                 </div>
