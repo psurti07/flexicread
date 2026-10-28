@@ -60,9 +60,9 @@
 	                    <h5>Useful Links</h5>
 	                    <ul class="footer-links">
 	                        <li><a href="<?php echo site_url('privacy-policy'); ?>">Privacy Policy</a></li>
-							  <li><a href="<?php echo site_url('terms-conditions'); ?>">Terms &amp; Conditions</a></li>
-							  			  <li><a href="#">Refund Policy</a></li>
-											<li><a href="<?php echo site_url('disclaimer'); ?>">Disclaimer</a></li>
+							<li><a href="<?php echo site_url('terms-conditions'); ?>">Terms &amp; Conditions</a></li>
+							<li><a href="<?php echo site_url('refund-policy'); ?>">Refund Policy</a></li>
+							<li><a href="<?php echo site_url('disclaimer'); ?>">Disclaimer</a></li>
 	                        <li><a href="#">Terms of Use</a>
 	                        </li>
 	                      

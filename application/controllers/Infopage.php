@@ -33,7 +33,8 @@ Class Infopage extends CI_Controller {
 	public function contact(){
 		$this->load->model('Site_Info_Model');
 		$meta = $this->Site_Info_Model->getmetakeywords('contact');
-		$this->load->view('contact',['meta'=>$meta]);
+		$banklist = $this->Site_Info_Model->getbanklist(8);
+		$this->load->view('contact',['meta'=>$meta, 'banklist'=>$banklist]);
 	}
 
 	public function career(){
